@@ -40,6 +40,10 @@
         "source": "C:\\Users\\petif\\AndroidStudioProjects\\WebViewApp\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
+        "merged": "C:\\Users\\petif\\AndroidStudioProjects\\WebViewApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_faq.xml.flat",
+        "source": "C:\\Users\\petif\\AndroidStudioProjects\\WebViewApp\\app\\src\\main\\res\\layout\\activity_faq.xml"
+    },
+    {
         "merged": "C:\\Users\\petif\\AndroidStudioProjects\\WebViewApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\petif\\AndroidStudioProjects\\WebViewApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
