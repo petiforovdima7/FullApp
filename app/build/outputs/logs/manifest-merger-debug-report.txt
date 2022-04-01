@@ -1,0 +1,1126 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:2:1-94:12
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\petif\.gradle\caches\transforms-3\3dd2ab2205ab361c76067c01a590f61d\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\petif\.gradle\caches\transforms-3\785c7b7fb13fe845173c8545efb326e6\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:2:1-135:12
+MERGED from [com.facebook.android:facebook-android-sdk:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\aae55bc4adc1b280599fb9ed334d0af7\transformed\facebook-android-sdk-13.1.0\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\dee1c15343df992b07c706a2ea4907c0\transformed\facebook-login-13.1.0\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-gamingservices:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\1c8e62082a2ec387ffdb97ceec147522\transformed\facebook-gamingservices-13.1.0\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\bf5d56eaf51d965523890b06efbd9369\transformed\facebook-share-13.1.0\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\fccf8faa94ba4f8d8c2c5f9168199861\transformed\facebook-common-13.1.0\AndroidManifest.xml:21:1-52:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\petif\.gradle\caches\transforms-3\929cbefe36f5d5efdc86a45c9382907c\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.appsflyer:af-android-sdk:6.3.2] C:\Users\petif\.gradle\caches\transforms-3\e4497203808c33bebd08a0d6e5bbd35e\transformed\af-android-sdk-6.3.2\AndroidManifest.xml:2:1-18:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\24e0a447b0b59c887b4a3b1db968d0e7\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\afad9e66e0a40b829157ec6284bd4363\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-messaging:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ff3a185e076d051161e82200c95a0de1\transformed\firebase-messaging-19.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ceebcd1e502ea7e57c6a62c74548f9c9\transformed\firebase-iid-19.0.0\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\5ed4036b074bf6fb3ad3901dcdbeeaa7\transformed\firebase-iid-interop-17.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\770de7f170bb235acf506ca0a4d736bb\transformed\play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:18.0.0] C:\Users\petif\.gradle\caches\transforms-3\5b4fb556637839493cd2849d716c0392\transformed\firebase-common-18.0.0\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\e401093c81bb0d2dc814e543f9ad5858\transformed\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\petif\.gradle\caches\transforms-3\4c4a04149df6fd0e17a05c93af700736\transformed\firebase-measurement-connector-18.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\b52895554e92d8c28d39ceb5c0b67dd0\transformed\play-services-stats-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\6692440cc5c51f8835a47e76778d60b4\transformed\play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\petif\.gradle\caches\transforms-3\aeb158690eb4582deb3928354ab2358f\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\petif\.gradle\caches\transforms-3\36e9ce495712395a8e8ef483ab829910\transformed\activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\petif\.gradle\caches\transforms-3\4beab8f5277c8f94d6f97d948c609449\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\0f5e2cda23fa1f1caf2314abeebe3500\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\2e6cb129136b6134472e0c7108479414\transformed\emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\adb2ff573931372dff3afa18d2ffbd2f\transformed\browser-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\a7365c492975ccfcddb01fd558935665\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\petif\.gradle\caches\transforms-3\9d090a7427b0b1db9c465e32f04c9025\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\petif\.gradle\caches\transforms-3\3d63286d27981f4e092002b6db3c3345\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\7ada8e8563ef3e2d70ceba513118d243\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\petif\.gradle\caches\transforms-3\ed8c20a09e2680513ac0ca40a9a22d18\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\petif\.gradle\caches\transforms-3\372e5ae51fda120ff48ae9eada8e9fc6\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\petif\.gradle\caches\transforms-3\2ebdc321e7404ba5897a26e508546c77\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\8de9879afba60421768d9710f867e939\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-applinks:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\12f3ee05ef21d4dd9e99772da8b1bec3\transformed\facebook-applinks-13.1.0\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\b4eb2a82f52819434553afb34d4ace97\transformed\facebook-messenger-13.1.0\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-core:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\95d3f8c4a3d1532498fe3ac8b8c15133\transformed\facebook-core-13.1.0\AndroidManifest.xml:21:1-62:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\a197db2eba7bcb977c1a0ff94708e097\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\7d4e7c87de4a284c8e5fd4cd4c5cb333\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\petif\.gradle\caches\transforms-3\cbf3558c4ce31ed4a2e108191e73034a\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\c9c39950c4f7e41d58907005b804e8f8\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\petif\.gradle\caches\transforms-3\3e076167b5fa47f32af669afb4ac28d5\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\1eeb498c5bfe9c30e246c0d11e20a036\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-bolts:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\4dc6565e5e9192064c6365359116d954\transformed\facebook-bolts-13.1.0\AndroidManifest.xml:21:1-31:12
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\petif\.gradle\caches\transforms-3\8d363c6ffcf28d333c78247ed278f0f2\transformed\core-ktx-1.3.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\cec905abfbc9380b71e933e781daaf1e\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\df4890c9718cfb8cb2ae44a52443127b\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\petif\.gradle\caches\transforms-3\6a1bc079d1a2d95c91f3a5aadc9bd5bd\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\3b9023f9472844500aca217034fea13d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\petif\.gradle\caches\transforms-3\bb86bcee13233741f7b7bef0792e66fc\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\petif\.gradle\caches\transforms-3\ea4a60505f946c112e455abff2e72ff1\transformed\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\petif\.gradle\caches\transforms-3\37a367175ec220d8c45ef8e879f75ef0\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\403fa10e768f7e062eca5872fe38e713\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\petif\.gradle\caches\transforms-3\1d5429baba838cdf34a73b924ae7ee92\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\petif\.gradle\caches\transforms-3\5840b4ac646a6883040b1f3c74b52d7b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\323ba002db795512c6150a93a4286a0f\transformed\startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\01dcab0888ca9d9ba6dc75cfb900468c\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\petif\.gradle\caches\transforms-3\db961b1ed93cad76a878aa98ff655e46\transformed\lifecycle-livedata-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\petif\.gradle\caches\transforms-3\238e9998eb99a6d3fce5f663b2af7e6c\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\petif\.gradle\caches\transforms-3\b9bcb7376e22a648170c0f1cfb901129\transformed\room-runtime-2.2.5\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\petif\.gradle\caches\transforms-3\15f7424b1ab86397da064ecd31df62c4\transformed\lifecycle-service-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\petif\.gradle\caches\transforms-3\4b484605c63e3e2bdb689ef2be7af6b7\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\petif\.gradle\caches\transforms-3\b848763a1bc91ede3482230fa76f09de\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\e05c1925408d91e42b76a47710985bdb\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\petif\.gradle\caches\transforms-3\e658ba23c5d0b3afde8657be5bc9fbc1\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\petif\.gradle\caches\transforms-3\269c02db907eda9df215e5e441e299c8\transformed\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\e11d49c613aa2255c59ddd31599477f9\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\e8fe998723f364915b20cf8e6db2c248\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\5d6bee8330f1528d9662207407e868d2\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\petif\.gradle\caches\transforms-3\8535e98f1a7c0373a680dec1be6dc9cc\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.appsflyer:oaid:6.2.4] C:\Users\petif\.gradle\caches\transforms-3\07e06e588eefff69c06fb3f7ce1ca58a\transformed\oaid-6.2.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\petif\.gradle\caches\transforms-3\1e4d73f8aee2e6d6f301a2a43875bcfb\transformed\installreferrer-1.0\AndroidManifest.xml:2:1-13:12
+INJECTED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:2:1-94:12
+INJECTED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:2:1-94:12
+	package
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:4:5-38
+		INJECTED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:2:1-94:12
+		INJECTED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:2:1-94:12
+		INJECTED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:16:5-67
+MERGED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:16:5-67
+MERGED from [com.appsflyer:af-android-sdk:6.3.2] C:\Users\petif\.gradle\caches\transforms-3\e4497203808c33bebd08a0d6e5bbd35e\transformed\af-android-sdk-6.3.2\AndroidManifest.xml:13:5-67
+MERGED from [com.appsflyer:af-android-sdk:6.3.2] C:\Users\petif\.gradle\caches\transforms-3\e4497203808c33bebd08a0d6e5bbd35e\transformed\af-android-sdk-6.3.2\AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ceebcd1e502ea7e57c6a62c74548f9c9\transformed\firebase-iid-19.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ceebcd1e502ea7e57c6a62c74548f9c9\transformed\firebase-iid-19.0.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:7:5-9:31
+REJECTED from [com.facebook.android:facebook-core:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\95d3f8c4a3d1532498fe3ac8b8c15133\transformed\facebook-core-13.1.0\AndroidManifest.xml:28:5-79
+	tools:node
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:9:9-28
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:8:9-63
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:12:5-85
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:12:22-82
+meta-data#CHANNEL
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:13:5-67
+	android:value
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:13:39-65
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:13:16-38
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:17:5-79
+MERGED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:24:5-79
+MERGED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:24:5-79
+MERGED from [com.appsflyer:af-android-sdk:6.3.2] C:\Users\petif\.gradle\caches\transforms-3\e4497203808c33bebd08a0d6e5bbd35e\transformed\af-android-sdk-6.3.2\AndroidManifest.xml:14:5-79
+MERGED from [com.appsflyer:af-android-sdk:6.3.2] C:\Users\petif\.gradle\caches\transforms-3\e4497203808c33bebd08a0d6e5bbd35e\transformed\af-android-sdk-6.3.2\AndroidManifest.xml:14:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ceebcd1e502ea7e57c6a62c74548f9c9\transformed\firebase-iid-19.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ceebcd1e502ea7e57c6a62c74548f9c9\transformed\firebase-iid-19.0.0\AndroidManifest.xml:22:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:18:5-75
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:18:22-72
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:19:22-73
+queries
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:21:5-24:15
+provider
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:22:9-89
+	android:authorities
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:22:19-86
+application
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:26:5-92:19
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\petif\.gradle\caches\transforms-3\3dd2ab2205ab361c76067c01a590f61d\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\petif\.gradle\caches\transforms-3\3dd2ab2205ab361c76067c01a590f61d\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\petif\.gradle\caches\transforms-3\785c7b7fb13fe845173c8545efb326e6\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\petif\.gradle\caches\transforms-3\785c7b7fb13fe845173c8545efb326e6\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:48:5-133:19
+MERGED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:48:5-133:19
+MERGED from [com.facebook.android:facebook-android-sdk:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\aae55bc4adc1b280599fb9ed334d0af7\transformed\facebook-android-sdk-13.1.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\aae55bc4adc1b280599fb9ed334d0af7\transformed\facebook-android-sdk-13.1.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\dee1c15343df992b07c706a2ea4907c0\transformed\facebook-login-13.1.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\dee1c15343df992b07c706a2ea4907c0\transformed\facebook-login-13.1.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-gamingservices:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\1c8e62082a2ec387ffdb97ceec147522\transformed\facebook-gamingservices-13.1.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-gamingservices:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\1c8e62082a2ec387ffdb97ceec147522\transformed\facebook-gamingservices-13.1.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\bf5d56eaf51d965523890b06efbd9369\transformed\facebook-share-13.1.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\bf5d56eaf51d965523890b06efbd9369\transformed\facebook-share-13.1.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\fccf8faa94ba4f8d8c2c5f9168199861\transformed\facebook-common-13.1.0\AndroidManifest.xml:29:5-50:19
+MERGED from [com.facebook.android:facebook-common:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\fccf8faa94ba4f8d8c2c5f9168199861\transformed\facebook-common-13.1.0\AndroidManifest.xml:29:5-50:19
+MERGED from [com.appsflyer:af-android-sdk:6.3.2] C:\Users\petif\.gradle\caches\transforms-3\e4497203808c33bebd08a0d6e5bbd35e\transformed\af-android-sdk-6.3.2\AndroidManifest.xml:16:5-76
+MERGED from [com.appsflyer:af-android-sdk:6.3.2] C:\Users\petif\.gradle\caches\transforms-3\e4497203808c33bebd08a0d6e5bbd35e\transformed\af-android-sdk-6.3.2\AndroidManifest.xml:16:5-76
+MERGED from [com.google.firebase:firebase-messaging:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ff3a185e076d051161e82200c95a0de1\transformed\firebase-messaging-19.0.0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ff3a185e076d051161e82200c95a0de1\transformed\firebase-messaging-19.0.0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ceebcd1e502ea7e57c6a62c74548f9c9\transformed\firebase-iid-19.0.0\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ceebcd1e502ea7e57c6a62c74548f9c9\transformed\firebase-iid-19.0.0\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\5ed4036b074bf6fb3ad3901dcdbeeaa7\transformed\firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\5ed4036b074bf6fb3ad3901dcdbeeaa7\transformed\firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\770de7f170bb235acf506ca0a4d736bb\transformed\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\770de7f170bb235acf506ca0a4d736bb\transformed\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] C:\Users\petif\.gradle\caches\transforms-3\5b4fb556637839493cd2849d716c0392\transformed\firebase-common-18.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] C:\Users\petif\.gradle\caches\transforms-3\5b4fb556637839493cd2849d716c0392\transformed\firebase-common-18.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\e401093c81bb0d2dc814e543f9ad5858\transformed\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\e401093c81bb0d2dc814e543f9ad5858\transformed\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\petif\.gradle\caches\transforms-3\4c4a04149df6fd0e17a05c93af700736\transformed\firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\petif\.gradle\caches\transforms-3\4c4a04149df6fd0e17a05c93af700736\transformed\firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\b52895554e92d8c28d39ceb5c0b67dd0\transformed\play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\b52895554e92d8c28d39ceb5c0b67dd0\transformed\play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\6692440cc5c51f8835a47e76778d60b4\transformed\play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\6692440cc5c51f8835a47e76778d60b4\transformed\play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\2e6cb129136b6134472e0c7108479414\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\2e6cb129136b6134472e0c7108479414\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:30:5-143:19
+MERGED from [com.facebook.android:facebook-applinks:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\12f3ee05ef21d4dd9e99772da8b1bec3\transformed\facebook-applinks-13.1.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\12f3ee05ef21d4dd9e99772da8b1bec3\transformed\facebook-applinks-13.1.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\b4eb2a82f52819434553afb34d4ace97\transformed\facebook-messenger-13.1.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\b4eb2a82f52819434553afb34d4ace97\transformed\facebook-messenger-13.1.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\95d3f8c4a3d1532498fe3ac8b8c15133\transformed\facebook-core-13.1.0\AndroidManifest.xml:30:5-60:19
+MERGED from [com.facebook.android:facebook-core:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\95d3f8c4a3d1532498fe3ac8b8c15133\transformed\facebook-core-13.1.0\AndroidManifest.xml:30:5-60:19
+MERGED from [com.facebook.android:facebook-bolts:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\4dc6565e5e9192064c6365359116d954\transformed\facebook-bolts-13.1.0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-bolts:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\4dc6565e5e9192064c6365359116d954\transformed\facebook-bolts-13.1.0\AndroidManifest.xml:28:5-29:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\petif\.gradle\caches\transforms-3\6a1bc079d1a2d95c91f3a5aadc9bd5bd\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\petif\.gradle\caches\transforms-3\6a1bc079d1a2d95c91f3a5aadc9bd5bd\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\petif\.gradle\caches\transforms-3\1d5429baba838cdf34a73b924ae7ee92\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\petif\.gradle\caches\transforms-3\1d5429baba838cdf34a73b924ae7ee92\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\petif\.gradle\caches\transforms-3\5840b4ac646a6883040b1f3c74b52d7b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\petif\.gradle\caches\transforms-3\5840b4ac646a6883040b1f3c74b52d7b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\323ba002db795512c6150a93a4286a0f\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\323ba002db795512c6150a93a4286a0f\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\petif\.gradle\caches\transforms-3\b9bcb7376e22a648170c0f1cfb901129\transformed\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\petif\.gradle\caches\transforms-3\b9bcb7376e22a648170c0f1cfb901129\transformed\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\petif\.gradle\caches\transforms-3\1e4d73f8aee2e6d6f301a2a43875bcfb\transformed\installreferrer-1.0\AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\petif\.gradle\caches\transforms-3\1e4d73f8aee2e6d6f301a2a43875bcfb\transformed\installreferrer-1.0\AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] C:\Users\petif\.gradle\caches\transforms-3\6a1bc079d1a2d95c91f3a5aadc9bd5bd\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:31:9-35
+	android:label
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:29:9-41
+	android:fullBackupContent
+		ADDED from [com.appsflyer:af-android-sdk:6.3.2] C:\Users\petif\.gradle\caches\transforms-3\e4497203808c33bebd08a0d6e5bbd35e\transformed\af-android-sdk-6.3.2\AndroidManifest.xml:16:18-73
+	android:windowSoftInputMode
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:33:9-50
+	android:roundIcon
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:30:9-54
+	android:icon
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:28:9-43
+	android:allowBackup
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:27:9-35
+	android:theme
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:32:9-48
+activity#com.example.webviewappa.SplashActivity
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:34:9-42:20
+	android:exported
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:36:13-36
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:35:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:37:13-41:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:40:17-77
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:40:27-74
+activity#com.example.webviewappa.Game.FaqActivity
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:43:9-45:40
+	android:exported
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:44:13-45
+activity#com.example.webviewappa.Game.MultiPlayerActivity
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:46:9-48:40
+	android:exported
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:47:13-53
+activity#com.example.webviewappa.Game.SinglePlayerActivity
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:49:9-51:40
+	android:exported
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:50:13-54
+activity#com.example.webviewappa.Game.UsersActivity
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:52:9-54:40
+	android:exported
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:54:13-37
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:53:13-47
+activity#com.example.webviewappa.GameActivity
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:55:9-57:40
+	android:exported
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:57:13-37
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:56:13-41
+activity#com.example.webviewappa.BrowserActivity
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:58:9-60:40
+	android:exported
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:60:13-37
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:59:13-44
+activity#com.example.webviewappa.Game.SettingsActivity
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:61:9-63:40
+	android:exported
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:63:13-37
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:62:13-50
+activity#com.example.webviewappa.AuthActivity
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:64:9-67:20
+	android:exported
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:66:13-37
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:65:13-41
+activity#com.example.webviewappa.MainActivity
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:68:9-50
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:68:19-47
+activity#com.facebook.FacebookActivity
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:69:9-72:48
+MERGED from [com.facebook.android:facebook-common:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\fccf8faa94ba4f8d8c2c5f9168199861\transformed\facebook-common-13.1.0\AndroidManifest.xml:30:9-33:66
+MERGED from [com.facebook.android:facebook-common:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\fccf8faa94ba4f8d8c2c5f9168199861\transformed\facebook-common-13.1.0\AndroidManifest.xml:30:9-33:66
+	android:label
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:72:13-45
+	android:configChanges
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:71:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\fccf8faa94ba4f8d8c2c5f9168199861\transformed\facebook-common-13.1.0\AndroidManifest.xml:33:13-63
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:70:13-57
+activity#com.facebook.CustomTabActivity
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:73:9-84:20
+MERGED from [com.facebook.android:facebook-common:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\fccf8faa94ba4f8d8c2c5f9168199861\transformed\facebook-common-13.1.0\AndroidManifest.xml:35:9-49:20
+MERGED from [com.facebook.android:facebook-common:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\fccf8faa94ba4f8d8c2c5f9168199861\transformed\facebook-common-13.1.0\AndroidManifest.xml:35:9-49:20
+	tools:node
+		ADDED from [com.facebook.android:facebook-common:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\fccf8faa94ba4f8d8c2c5f9168199861\transformed\facebook-common-13.1.0\AndroidManifest.xml:38:13-31
+	android:exported
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:75:13-36
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:74:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:76:13-83:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:77:17-69
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:77:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:79:17-76
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:79:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:80:17-78
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:80:27-75
+data
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:82:17-75
+	android:scheme
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:82:23-72
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:86:9-88:55
+	android:value
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:88:13-52
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:87:13-58
+meta-data#com.facebook.sdk.ClientToken
+ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:89:9-91:61
+	android:value
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:91:13-58
+	android:name
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:90:13-56
+uses-sdk
+INJECTED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\petif\.gradle\caches\transforms-3\3dd2ab2205ab361c76067c01a590f61d\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\petif\.gradle\caches\transforms-3\3dd2ab2205ab361c76067c01a590f61d\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\petif\.gradle\caches\transforms-3\785c7b7fb13fe845173c8545efb326e6\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\petif\.gradle\caches\transforms-3\785c7b7fb13fe845173c8545efb326e6\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:4:5-44
+MERGED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:4:5-44
+MERGED from [com.facebook.android:facebook-android-sdk:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\aae55bc4adc1b280599fb9ed334d0af7\transformed\facebook-android-sdk-13.1.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\aae55bc4adc1b280599fb9ed334d0af7\transformed\facebook-android-sdk-13.1.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\dee1c15343df992b07c706a2ea4907c0\transformed\facebook-login-13.1.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\dee1c15343df992b07c706a2ea4907c0\transformed\facebook-login-13.1.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-gamingservices:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\1c8e62082a2ec387ffdb97ceec147522\transformed\facebook-gamingservices-13.1.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-gamingservices:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\1c8e62082a2ec387ffdb97ceec147522\transformed\facebook-gamingservices-13.1.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\bf5d56eaf51d965523890b06efbd9369\transformed\facebook-share-13.1.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\bf5d56eaf51d965523890b06efbd9369\transformed\facebook-share-13.1.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\fccf8faa94ba4f8d8c2c5f9168199861\transformed\facebook-common-13.1.0\AndroidManifest.xml:25:5-27:41
+MERGED from [com.facebook.android:facebook-common:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\fccf8faa94ba4f8d8c2c5f9168199861\transformed\facebook-common-13.1.0\AndroidManifest.xml:25:5-27:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\petif\.gradle\caches\transforms-3\929cbefe36f5d5efdc86a45c9382907c\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\petif\.gradle\caches\transforms-3\929cbefe36f5d5efdc86a45c9382907c\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.appsflyer:af-android-sdk:6.3.2] C:\Users\petif\.gradle\caches\transforms-3\e4497203808c33bebd08a0d6e5bbd35e\transformed\af-android-sdk-6.3.2\AndroidManifest.xml:8:5-11:54
+MERGED from [com.appsflyer:af-android-sdk:6.3.2] C:\Users\petif\.gradle\caches\transforms-3\e4497203808c33bebd08a0d6e5bbd35e\transformed\af-android-sdk-6.3.2\AndroidManifest.xml:8:5-11:54
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\24e0a447b0b59c887b4a3b1db968d0e7\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\24e0a447b0b59c887b4a3b1db968d0e7\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\afad9e66e0a40b829157ec6284bd4363\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\afad9e66e0a40b829157ec6284bd4363\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ff3a185e076d051161e82200c95a0de1\transformed\firebase-messaging-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ff3a185e076d051161e82200c95a0de1\transformed\firebase-messaging-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ceebcd1e502ea7e57c6a62c74548f9c9\transformed\firebase-iid-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ceebcd1e502ea7e57c6a62c74548f9c9\transformed\firebase-iid-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\5ed4036b074bf6fb3ad3901dcdbeeaa7\transformed\firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\5ed4036b074bf6fb3ad3901dcdbeeaa7\transformed\firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\770de7f170bb235acf506ca0a4d736bb\transformed\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\770de7f170bb235acf506ca0a4d736bb\transformed\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:18.0.0] C:\Users\petif\.gradle\caches\transforms-3\5b4fb556637839493cd2849d716c0392\transformed\firebase-common-18.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:18.0.0] C:\Users\petif\.gradle\caches\transforms-3\5b4fb556637839493cd2849d716c0392\transformed\firebase-common-18.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\e401093c81bb0d2dc814e543f9ad5858\transformed\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\e401093c81bb0d2dc814e543f9ad5858\transformed\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\petif\.gradle\caches\transforms-3\4c4a04149df6fd0e17a05c93af700736\transformed\firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\petif\.gradle\caches\transforms-3\4c4a04149df6fd0e17a05c93af700736\transformed\firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\b52895554e92d8c28d39ceb5c0b67dd0\transformed\play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\b52895554e92d8c28d39ceb5c0b67dd0\transformed\play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\6692440cc5c51f8835a47e76778d60b4\transformed\play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\6692440cc5c51f8835a47e76778d60b4\transformed\play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\petif\.gradle\caches\transforms-3\aeb158690eb4582deb3928354ab2358f\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\petif\.gradle\caches\transforms-3\aeb158690eb4582deb3928354ab2358f\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\petif\.gradle\caches\transforms-3\36e9ce495712395a8e8ef483ab829910\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\petif\.gradle\caches\transforms-3\36e9ce495712395a8e8ef483ab829910\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\petif\.gradle\caches\transforms-3\4beab8f5277c8f94d6f97d948c609449\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\petif\.gradle\caches\transforms-3\4beab8f5277c8f94d6f97d948c609449\transformed\appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\0f5e2cda23fa1f1caf2314abeebe3500\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\0f5e2cda23fa1f1caf2314abeebe3500\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\2e6cb129136b6134472e0c7108479414\transformed\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\2e6cb129136b6134472e0c7108479414\transformed\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\adb2ff573931372dff3afa18d2ffbd2f\transformed\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\adb2ff573931372dff3afa18d2ffbd2f\transformed\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\a7365c492975ccfcddb01fd558935665\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\a7365c492975ccfcddb01fd558935665\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\petif\.gradle\caches\transforms-3\9d090a7427b0b1db9c465e32f04c9025\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\petif\.gradle\caches\transforms-3\9d090a7427b0b1db9c465e32f04c9025\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\petif\.gradle\caches\transforms-3\3d63286d27981f4e092002b6db3c3345\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\petif\.gradle\caches\transforms-3\3d63286d27981f4e092002b6db3c3345\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\7ada8e8563ef3e2d70ceba513118d243\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\7ada8e8563ef3e2d70ceba513118d243\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\petif\.gradle\caches\transforms-3\ed8c20a09e2680513ac0ca40a9a22d18\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\petif\.gradle\caches\transforms-3\ed8c20a09e2680513ac0ca40a9a22d18\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\petif\.gradle\caches\transforms-3\372e5ae51fda120ff48ae9eada8e9fc6\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\petif\.gradle\caches\transforms-3\372e5ae51fda120ff48ae9eada8e9fc6\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\petif\.gradle\caches\transforms-3\2ebdc321e7404ba5897a26e508546c77\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\petif\.gradle\caches\transforms-3\2ebdc321e7404ba5897a26e508546c77\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\8de9879afba60421768d9710f867e939\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\8de9879afba60421768d9710f867e939\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-applinks:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\12f3ee05ef21d4dd9e99772da8b1bec3\transformed\facebook-applinks-13.1.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\12f3ee05ef21d4dd9e99772da8b1bec3\transformed\facebook-applinks-13.1.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\b4eb2a82f52819434553afb34d4ace97\transformed\facebook-messenger-13.1.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\b4eb2a82f52819434553afb34d4ace97\transformed\facebook-messenger-13.1.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\95d3f8c4a3d1532498fe3ac8b8c15133\transformed\facebook-core-13.1.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\95d3f8c4a3d1532498fe3ac8b8c15133\transformed\facebook-core-13.1.0\AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\a197db2eba7bcb977c1a0ff94708e097\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\a197db2eba7bcb977c1a0ff94708e097\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\7d4e7c87de4a284c8e5fd4cd4c5cb333\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\7d4e7c87de4a284c8e5fd4cd4c5cb333\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\petif\.gradle\caches\transforms-3\cbf3558c4ce31ed4a2e108191e73034a\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\petif\.gradle\caches\transforms-3\cbf3558c4ce31ed4a2e108191e73034a\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\c9c39950c4f7e41d58907005b804e8f8\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\c9c39950c4f7e41d58907005b804e8f8\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\petif\.gradle\caches\transforms-3\3e076167b5fa47f32af669afb4ac28d5\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\petif\.gradle\caches\transforms-3\3e076167b5fa47f32af669afb4ac28d5\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\1eeb498c5bfe9c30e246c0d11e20a036\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\1eeb498c5bfe9c30e246c0d11e20a036\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-bolts:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\4dc6565e5e9192064c6365359116d954\transformed\facebook-bolts-13.1.0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-bolts:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\4dc6565e5e9192064c6365359116d954\transformed\facebook-bolts-13.1.0\AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\petif\.gradle\caches\transforms-3\8d363c6ffcf28d333c78247ed278f0f2\transformed\core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\petif\.gradle\caches\transforms-3\8d363c6ffcf28d333c78247ed278f0f2\transformed\core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\cec905abfbc9380b71e933e781daaf1e\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\cec905abfbc9380b71e933e781daaf1e\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\df4890c9718cfb8cb2ae44a52443127b\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\df4890c9718cfb8cb2ae44a52443127b\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] C:\Users\petif\.gradle\caches\transforms-3\6a1bc079d1a2d95c91f3a5aadc9bd5bd\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\petif\.gradle\caches\transforms-3\6a1bc079d1a2d95c91f3a5aadc9bd5bd\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\3b9023f9472844500aca217034fea13d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\3b9023f9472844500aca217034fea13d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\petif\.gradle\caches\transforms-3\bb86bcee13233741f7b7bef0792e66fc\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\petif\.gradle\caches\transforms-3\bb86bcee13233741f7b7bef0792e66fc\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\petif\.gradle\caches\transforms-3\ea4a60505f946c112e455abff2e72ff1\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\petif\.gradle\caches\transforms-3\ea4a60505f946c112e455abff2e72ff1\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\petif\.gradle\caches\transforms-3\37a367175ec220d8c45ef8e879f75ef0\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\petif\.gradle\caches\transforms-3\37a367175ec220d8c45ef8e879f75ef0\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\403fa10e768f7e062eca5872fe38e713\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\403fa10e768f7e062eca5872fe38e713\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\petif\.gradle\caches\transforms-3\1d5429baba838cdf34a73b924ae7ee92\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\petif\.gradle\caches\transforms-3\1d5429baba838cdf34a73b924ae7ee92\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\petif\.gradle\caches\transforms-3\5840b4ac646a6883040b1f3c74b52d7b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\petif\.gradle\caches\transforms-3\5840b4ac646a6883040b1f3c74b52d7b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\323ba002db795512c6150a93a4286a0f\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\323ba002db795512c6150a93a4286a0f\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\01dcab0888ca9d9ba6dc75cfb900468c\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\01dcab0888ca9d9ba6dc75cfb900468c\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\petif\.gradle\caches\transforms-3\db961b1ed93cad76a878aa98ff655e46\transformed\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\petif\.gradle\caches\transforms-3\db961b1ed93cad76a878aa98ff655e46\transformed\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\petif\.gradle\caches\transforms-3\238e9998eb99a6d3fce5f663b2af7e6c\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\petif\.gradle\caches\transforms-3\238e9998eb99a6d3fce5f663b2af7e6c\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\petif\.gradle\caches\transforms-3\b9bcb7376e22a648170c0f1cfb901129\transformed\room-runtime-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\petif\.gradle\caches\transforms-3\b9bcb7376e22a648170c0f1cfb901129\transformed\room-runtime-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\petif\.gradle\caches\transforms-3\15f7424b1ab86397da064ecd31df62c4\transformed\lifecycle-service-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\petif\.gradle\caches\transforms-3\15f7424b1ab86397da064ecd31df62c4\transformed\lifecycle-service-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\petif\.gradle\caches\transforms-3\4b484605c63e3e2bdb689ef2be7af6b7\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\petif\.gradle\caches\transforms-3\4b484605c63e3e2bdb689ef2be7af6b7\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\petif\.gradle\caches\transforms-3\b848763a1bc91ede3482230fa76f09de\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\petif\.gradle\caches\transforms-3\b848763a1bc91ede3482230fa76f09de\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\e05c1925408d91e42b76a47710985bdb\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\e05c1925408d91e42b76a47710985bdb\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\petif\.gradle\caches\transforms-3\e658ba23c5d0b3afde8657be5bc9fbc1\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\petif\.gradle\caches\transforms-3\e658ba23c5d0b3afde8657be5bc9fbc1\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\petif\.gradle\caches\transforms-3\269c02db907eda9df215e5e441e299c8\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\petif\.gradle\caches\transforms-3\269c02db907eda9df215e5e441e299c8\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\e11d49c613aa2255c59ddd31599477f9\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\e11d49c613aa2255c59ddd31599477f9\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\e8fe998723f364915b20cf8e6db2c248\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\e8fe998723f364915b20cf8e6db2c248\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\5d6bee8330f1528d9662207407e868d2\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\5d6bee8330f1528d9662207407e868d2\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\petif\.gradle\caches\transforms-3\8535e98f1a7c0373a680dec1be6dc9cc\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\petif\.gradle\caches\transforms-3\8535e98f1a7c0373a680dec1be6dc9cc\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.appsflyer:oaid:6.2.4] C:\Users\petif\.gradle\caches\transforms-3\07e06e588eefff69c06fb3f7ce1ca58a\transformed\oaid-6.2.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.appsflyer:oaid:6.2.4] C:\Users\petif\.gradle\caches\transforms-3\07e06e588eefff69c06fb3f7ce1ca58a\transformed\oaid-6.2.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\petif\.gradle\caches\transforms-3\1e4d73f8aee2e6d6f301a2a43875bcfb\transformed\installreferrer-1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\petif\.gradle\caches\transforms-3\1e4d73f8aee2e6d6f301a2a43875bcfb\transformed\installreferrer-1.0\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.appsflyer:af-android-sdk:6.3.2] C:\Users\petif\.gradle\caches\transforms-3\e4497203808c33bebd08a0d6e5bbd35e\transformed\af-android-sdk-6.3.2\AndroidManifest.xml:11:9-51
+	android:targetSdkVersion
+		INJECTED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:7:5-9:47
+	android:protectionLevel
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:9:9-44
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:8:9-63
+permission#com.example.webviewapp.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:7:5-9:47
+	android:protectionLevel
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:9:9-44
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:8:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:11:22-76
+uses-permission#com.example.webviewapp.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:11:22-76
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:17:5-82
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ceebcd1e502ea7e57c6a62c74548f9c9\transformed\firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ceebcd1e502ea7e57c6a62c74548f9c9\transformed\firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:17:22-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:18:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ceebcd1e502ea7e57c6a62c74548f9c9\transformed\firebase-iid-19.0.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ceebcd1e502ea7e57c6a62c74548f9c9\transformed\firebase-iid-19.0.0\AndroidManifest.xml:24:5-68
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:18:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:23:5-66
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:23:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:29:5-81
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:5-81
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:29:22-78
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:31:5-86
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:31:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:32:5-87
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:32:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:33:5-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:33:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:34:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:35:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:35:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:36:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:36:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:37:5-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:37:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:38:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:38:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:39:5-91
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:39:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:40:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:40:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:41:5-93
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:41:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:43:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:43:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:44:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:44:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:45:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:45:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:46:5-89
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:46:22-86
+receiver#com.onesignal.FCMBroadcastReceiver
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:49:9-60:20
+	android:exported
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:52:13-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:50:13-62
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:55:13-59:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:55:28-50
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.example.webviewapp
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:55:13-59:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:55:28-50
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:56:17-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:56:25-78
+category#${applicationId}
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:58:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:58:27-58
+category#com.example.webviewapp
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:58:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:58:27-58
+service#com.onesignal.HmsMessageServiceOneSignal
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:62:9-68:19
+	android:exported
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:64:13-37
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:63:13-68
+intent-filter#action:name:com.huawei.push.action.MESSAGING_EVENT
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:65:13-67:29
+action#com.huawei.push.action.MESSAGING_EVENT
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:66:17-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:66:25-78
+activity#com.onesignal.NotificationOpenedActivityHMS
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:70:9-78:20
+	android:noHistory
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:73:13-37
+	android:exported
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:72:13-36
+	android:theme
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:74:13-72
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:71:13-71
+intent-filter#action:name:android.intent.action.VIEW
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:75:13-77:29
+service#com.onesignal.FCMIntentService
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:80:9-82:40
+	android:exported
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:82:13-37
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:81:13-58
+service#com.onesignal.FCMIntentJobService
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:83:9-86:72
+	android:exported
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:85:13-37
+	android:permission
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:86:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:84:13-61
+service#com.onesignal.SyncService
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:87:9-90:43
+	android:exported
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:89:13-37
+	android:stopWithTask
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:90:13-40
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:88:13-53
+service#com.onesignal.SyncJobService
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:91:9-94:72
+	android:exported
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:93:13-37
+	android:permission
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:94:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:92:13-56
+activity#com.onesignal.PermissionsActivity
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:96:9-99:75
+	android:exported
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:98:13-37
+	android:theme
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:99:13-72
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:97:13-61
+receiver#com.onesignal.NotificationDismissReceiver
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:101:9-103:39
+	android:exported
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:103:13-36
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:102:13-69
+receiver#com.onesignal.BootUpReceiver
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:104:9-111:20
+	android:exported
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:106:13-36
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:105:13-56
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:107:13-110:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:108:17-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:108:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:109:17-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:109:25-79
+receiver#com.onesignal.UpgradeReceiver
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:112:9-118:20
+	android:exported
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:114:13-36
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:113:13-57
+intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:115:13-117:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:116:17-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:116:25-81
+activity#com.onesignal.NotificationOpenedReceiver
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:120:9-126:75
+	android:excludeFromRecents
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:122:13-46
+	android:noHistory
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:124:13-37
+	android:exported
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:123:13-36
+	android:theme
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:126:13-72
+	android:taskAffinity
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:125:13-36
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:121:13-68
+activity#com.onesignal.NotificationOpenedReceiverAndroid22AndOlder
+ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:127:9-132:75
+	android:excludeFromRecents
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:129:13-46
+	android:noHistory
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:131:13-37
+	android:exported
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:130:13-36
+	android:theme
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:132:13-72
+	android:name
+		ADDED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:128:13-85
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\fccf8faa94ba4f8d8c2c5f9168199861\transformed\facebook-common-13.1.0\AndroidManifest.xml:34:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\fccf8faa94ba4f8d8c2c5f9168199861\transformed\facebook-common-13.1.0\AndroidManifest.xml:34:19-68
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.${applicationId}+data:scheme:fbconnect
+ADDED from [com.facebook.android:facebook-common:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\fccf8faa94ba4f8d8c2c5f9168199861\transformed\facebook-common-13.1.0\AndroidManifest.xml:39:13-48:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.com.example.webviewapp+data:scheme:fbconnect
+ADDED from [com.facebook.android:facebook-common:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\fccf8faa94ba4f8d8c2c5f9168199861\transformed\facebook-common-13.1.0\AndroidManifest.xml:39:13-48:29
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ff3a185e076d051161e82200c95a0de1\transformed\firebase-messaging-19.0.0\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ff3a185e076d051161e82200c95a0de1\transformed\firebase-messaging-19.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ff3a185e076d051161e82200c95a0de1\transformed\firebase-messaging-19.0.0\AndroidManifest.xml:29:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ff3a185e076d051161e82200c95a0de1\transformed\firebase-messaging-19.0.0\AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ff3a185e076d051161e82200c95a0de1\transformed\firebase-messaging-19.0.0\AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ff3a185e076d051161e82200c95a0de1\transformed\firebase-messaging-19.0.0\AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ff3a185e076d051161e82200c95a0de1\transformed\firebase-messaging-19.0.0\AndroidManifest.xml:32:25-75
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ceebcd1e502ea7e57c6a62c74548f9c9\transformed\firebase-iid-19.0.0\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ceebcd1e502ea7e57c6a62c74548f9c9\transformed\firebase-iid-19.0.0\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ceebcd1e502ea7e57c6a62c74548f9c9\transformed\firebase-iid-19.0.0\AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ceebcd1e502ea7e57c6a62c74548f9c9\transformed\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ceebcd1e502ea7e57c6a62c74548f9c9\transformed\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ceebcd1e502ea7e57c6a62c74548f9c9\transformed\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ceebcd1e502ea7e57c6a62c74548f9c9\transformed\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ceebcd1e502ea7e57c6a62c74548f9c9\transformed\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ceebcd1e502ea7e57c6a62c74548f9c9\transformed\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ceebcd1e502ea7e57c6a62c74548f9c9\transformed\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\petif\.gradle\caches\transforms-3\ceebcd1e502ea7e57c6a62c74548f9c9\transformed\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\770de7f170bb235acf506ca0a4d736bb\transformed\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\770de7f170bb235acf506ca0a4d736bb\transformed\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\770de7f170bb235acf506ca0a4d736bb\transformed\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\770de7f170bb235acf506ca0a4d736bb\transformed\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:18.0.0] C:\Users\petif\.gradle\caches\transforms-3\5b4fb556637839493cd2849d716c0392\transformed\firebase-common-18.0.0\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:18.0.0] C:\Users\petif\.gradle\caches\transforms-3\5b4fb556637839493cd2849d716c0392\transformed\firebase-common-18.0.0\AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:18.0.0] C:\Users\petif\.gradle\caches\transforms-3\5b4fb556637839493cd2849d716c0392\transformed\firebase-common-18.0.0\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:18.0.0] C:\Users\petif\.gradle\caches\transforms-3\5b4fb556637839493cd2849d716c0392\transformed\firebase-common-18.0.0\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:18.0.0] C:\Users\petif\.gradle\caches\transforms-3\5b4fb556637839493cd2849d716c0392\transformed\firebase-common-18.0.0\AndroidManifest.xml:13:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\6692440cc5c51f8835a47e76778d60b4\transformed\play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\6692440cc5c51f8835a47e76778d60b4\transformed\play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\petif\.gradle\caches\transforms-3\6692440cc5c51f8835a47e76778d60b4\transformed\play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\2e6cb129136b6134472e0c7108479414\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\petif\.gradle\caches\transforms-3\5840b4ac646a6883040b1f3c74b52d7b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\petif\.gradle\caches\transforms-3\5840b4ac646a6883040b1f3c74b52d7b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\323ba002db795512c6150a93a4286a0f\transformed\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\323ba002db795512c6150a93a4286a0f\transformed\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\2e6cb129136b6134472e0c7108479414\transformed\emoji2-1.0.0\AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\2e6cb129136b6134472e0c7108479414\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\2e6cb129136b6134472e0c7108479414\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\2e6cb129136b6134472e0c7108479414\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\2e6cb129136b6134472e0c7108479414\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\2e6cb129136b6134472e0c7108479414\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\petif\.gradle\caches\transforms-3\2e6cb129136b6134472e0c7108479414\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:22-74
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\petif\.gradle\caches\transforms-3\e21c43d70c91415c308cc594deda9e5c\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\95d3f8c4a3d1532498fe3ac8b8c15133\transformed\facebook-core-13.1.0\AndroidManifest.xml:41:9-44:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\95d3f8c4a3d1532498fe3ac8b8c15133\transformed\facebook-core-13.1.0\AndroidManifest.xml:43:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\95d3f8c4a3d1532498fe3ac8b8c15133\transformed\facebook-core-13.1.0\AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\95d3f8c4a3d1532498fe3ac8b8c15133\transformed\facebook-core-13.1.0\AndroidManifest.xml:42:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\95d3f8c4a3d1532498fe3ac8b8c15133\transformed\facebook-core-13.1.0\AndroidManifest.xml:46:9-52:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\95d3f8c4a3d1532498fe3ac8b8c15133\transformed\facebook-core-13.1.0\AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\95d3f8c4a3d1532498fe3ac8b8c15133\transformed\facebook-core-13.1.0\AndroidManifest.xml:47:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\95d3f8c4a3d1532498fe3ac8b8c15133\transformed\facebook-core-13.1.0\AndroidManifest.xml:49:13-51:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\95d3f8c4a3d1532498fe3ac8b8c15133\transformed\facebook-core-13.1.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\95d3f8c4a3d1532498fe3ac8b8c15133\transformed\facebook-core-13.1.0\AndroidManifest.xml:50:25-92
+receiver#com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\95d3f8c4a3d1532498fe3ac8b8c15133\transformed\facebook-core-13.1.0\AndroidManifest.xml:53:9-59:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\95d3f8c4a3d1532498fe3ac8b8c15133\transformed\facebook-core-13.1.0\AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\95d3f8c4a3d1532498fe3ac8b8c15133\transformed\facebook-core-13.1.0\AndroidManifest.xml:54:13-118
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\95d3f8c4a3d1532498fe3ac8b8c15133\transformed\facebook-core-13.1.0\AndroidManifest.xml:56:13-58:29
+action#com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\95d3f8c4a3d1532498fe3ac8b8c15133\transformed\facebook-core-13.1.0\AndroidManifest.xml:57:17-103
+	android:name
+		ADDED from [com.facebook.android:facebook-core:13.1.0] C:\Users\petif\.gradle\caches\transforms-3\95d3f8c4a3d1532498fe3ac8b8c15133\transformed\facebook-core-13.1.0\AndroidManifest.xml:57:25-100
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\petif\.gradle\caches\transforms-3\5840b4ac646a6883040b1f3c74b52d7b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\petif\.gradle\caches\transforms-3\5840b4ac646a6883040b1f3c74b52d7b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\petif\.gradle\caches\transforms-3\5840b4ac646a6883040b1f3c74b52d7b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\petif\.gradle\caches\transforms-3\b9bcb7376e22a648170c0f1cfb901129\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\petif\.gradle\caches\transforms-3\b9bcb7376e22a648170c0f1cfb901129\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\petif\.gradle\caches\transforms-3\b9bcb7376e22a648170c0f1cfb901129\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\petif\.gradle\caches\transforms-3\b9bcb7376e22a648170c0f1cfb901129\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.android.installreferrer:installreferrer:1.0] C:\Users\petif\.gradle\caches\transforms-3\1e4d73f8aee2e6d6f301a2a43875bcfb\transformed\installreferrer-1.0\AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from [com.android.installreferrer:installreferrer:1.0] C:\Users\petif\.gradle\caches\transforms-3\1e4d73f8aee2e6d6f301a2a43875bcfb\transformed\installreferrer-1.0\AndroidManifest.xml:9:22-107

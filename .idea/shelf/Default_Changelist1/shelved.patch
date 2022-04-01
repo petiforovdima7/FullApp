@@ -1,0 +1,3227 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1648824038868)
++++ b/.idea/vcs.xml	(date 1648824038868)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: app/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/build.gradle b/app/build.gradle
+new file mode 100644
+--- /dev/null	(date 1648820899009)
++++ b/app/build.gradle	(date 1648820899009)
+@@ -0,0 +1,44 @@
++plugins {
++    id 'com.onesignal.androidsdk.onesignal-gradle-plugin'
++    id 'com.android.application'
++}
++
++android {
++    compileSdk 32
++
++    defaultConfig {
++        applicationId "com.example.webviewapp"
++        minSdk 21
++        targetSdk 32
++        versionCode 1
++        versionName "1.0"
++
++        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
++    }
++
++    buildTypes {
++        release {
++            minifyEnabled false
++            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
++        }
++    }
++    compileOptions {
++        sourceCompatibility JavaVersion.VERSION_1_8
++        targetCompatibility JavaVersion.VERSION_1_8
++    }
++}
++
++dependencies {
++
++    implementation 'androidx.appcompat:appcompat:1.4.1'
++    implementation 'com.google.android.material:material:1.5.0'
++    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
++    testImplementation 'junit:junit:4.13.2'
++    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
++    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
++
++    implementation 'com.onesignal:OneSignal:[4.0.0, 4.99.99]'
++    implementation 'com.facebook.android:facebook-android-sdk:latest.release'
++    implementation 'com.google.android.material:material:1.3.0'
++    implementation 'com.appsflyer:af-android-sdk:6.3.2'
++}
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_single_player.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_single_player.xml b/app/src/main/res/layout/activity_single_player.xml
+new file mode 100644
+--- /dev/null	(date 1648801268034)
++++ b/app/src/main/res/layout/activity_single_player.xml	(date 1648801268034)
+@@ -0,0 +1,168 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:orientation="vertical"
++    tools:context=".Game.SinglePlayerActivity">
++
++    <TextView
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_gravity="center"
++        android:layout_margin="10dp"
++        android:text="Tic Tac Toe Game"
++        android:textSize="30dp"
++        android:textStyle="bold" />
++
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="30dp"
++        android:gravity="center"
++        android:orientation="horizontal">
++
++        <Button
++            android:id="@+id/Button0"
++            android:layout_width="90dp"
++            android:layout_height="90dp"
++            android:layout_margin="8dp"
++            android:tag="0"
++            android:textColor="@color/black"
++            android:textSize="55dp"
++            app:backgroundTint="@color/button_color"
++            tools:text="0" />
++
++        <Button
++            android:id="@+id/Button1"
++            android:layout_width="90dp"
++            android:layout_height="90dp"
++            android:layout_margin="8dp"
++            android:tag="1"
++            android:textColor="@color/black"
++            android:textSize="55dp"
++            app:backgroundTint="@color/button_color"
++            tools:text="1" />
++
++        <Button
++            android:id="@+id/Button2"
++            android:layout_width="90dp"
++            android:layout_height="90dp"
++            android:layout_margin="8dp"
++            android:tag="2"
++            android:textColor="@color/black"
++            android:textSize="55dp"
++            app:backgroundTint="@color/button_color"
++            tools:text="2" />
++
++
++    </LinearLayout>
++
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:gravity="center"
++        android:orientation="horizontal">
++
++        <Button
++            android:id="@+id/Button3"
++            android:layout_width="90dp"
++            android:layout_height="90dp"
++            android:layout_margin="8dp"
++            android:tag="3"
++            android:textColor="@color/black"
++            android:textSize="55dp"
++            app:backgroundTint="@color/button_color"
++            tools:text="3" />
++
++        <Button
++            android:id="@+id/Button4"
++            android:layout_width="90dp"
++            android:layout_height="90dp"
++            android:layout_margin="8dp"
++            android:tag="4"
++            android:textColor="@color/black"
++            android:textSize="55dp"
++            app:backgroundTint="@color/button_color"
++            tools:text="4" />
++
++        <Button
++            android:id="@+id/Button5"
++            android:layout_width="90dp"
++            android:layout_height="90dp"
++            android:layout_margin="8dp"
++            android:tag="5"
++            android:textColor="@color/black"
++            android:textSize="55dp"
++            app:backgroundTint="@color/button_color"
++            tools:text="5" />
++
++
++    </LinearLayout>
++
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:gravity="center"
++        android:orientation="horizontal">
++
++        <Button
++            android:id="@+id/Button6"
++            android:layout_width="90dp"
++            android:layout_height="90dp"
++            android:layout_margin="8dp"
++            android:tag="6"
++            android:textColor="@color/black"
++            android:textSize="55dp"
++            app:backgroundTint="@color/button_color"
++            tools:text="6" />
++
++        <Button
++            android:id="@+id/Button7"
++            android:layout_width="90dp"
++            android:layout_height="90dp"
++            android:layout_margin="8dp"
++            android:tag="7"
++            android:textColor="@color/black"
++            android:textSize="55dp"
++            app:backgroundTint="@color/button_color"
++            tools:text="7" />
++
++        <Button
++            android:id="@+id/Button8"
++            android:layout_width="90dp"
++            android:layout_height="90dp"
++            android:layout_margin="8dp"
++            android:tag="8"
++            android:textColor="@color/black"
++            android:textSize="55dp"
++            app:backgroundTint="@color/button_color"
++            tools:text="8" />
++
++
++    </LinearLayout>
++
++    <TextView
++        android:id="@+id/UserTurnTxt"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_gravity="center"
++        android:layout_margin="30dp"
++        android:textColor="@color/purple_500"
++        android:textSize="20dp"
++        android:textStyle="bold"
++        tools:text="User Turn" />
++
++
++    <Button
++        android:id="@+id/RestartGameBtn"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_gravity="center"
++        android:text="Restart Game"
++        android:textSize="30dp"
++        android:textStyle="bold" />
++
++
++</LinearLayout>
+\ No newline at end of file
+Index: app/src/main/java/com/example/webviewappa/Game/UsersActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/webviewappa/Game/UsersActivity.java b/app/src/main/java/com/example/webviewappa/Game/UsersActivity.java
+new file mode 100644
+--- /dev/null	(date 1648820706828)
++++ b/app/src/main/java/com/example/webviewappa/Game/UsersActivity.java	(date 1648820706828)
+@@ -0,0 +1,41 @@
++package com.example.webviewappa.Game;
++
++import androidx.appcompat.app.AppCompatActivity;
++
++import android.content.Intent;
++import android.os.Bundle;
++import android.view.View;
++import android.widget.Button;
++
++import com.example.webviewappa.R;
++
++public class UsersActivity extends AppCompatActivity {
++    Button singlePlayerBtn, multiPlayerBtn;
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_users);
++
++        singlePlayerBtn = (Button) findViewById(R.id.SinglePlayerBtn);
++        multiPlayerBtn = (Button) findViewById(R.id.MultiPlayerBtn);
++
++        //Implementing OnclickListener and navigating to Single Player activity on button Click
++        singlePlayerBtn.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                Intent intent = new Intent(getApplicationContext(), SinglePlayerActivity.class);
++                startActivity(intent);
++            }
++        });
++
++        //Implementing OnclickListener and navigating to Main Activity on button Click
++        multiPlayerBtn.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                Intent intent = new Intent(getApplicationContext(), MultiPlayerActivity.class);
++                startActivity(intent);
++            }
++        });
++    }
++}
+\ No newline at end of file
+Index: app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/AndroidManifest.xml b/app/src/main/AndroidManifest.xml
+new file mode 100644
+--- /dev/null	(date 1648823823718)
++++ b/app/src/main/AndroidManifest.xml	(date 1648823823718)
+@@ -0,0 +1,94 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:tools="http://schemas.android.com/tools"
++    package="com.example.webviewappa">
++
++    <uses-permission android:name="android.permission.INTERNET" />
++    <uses-permission
++        android:name="com.google.android.gms.permission.AD_ID"
++        tools:node="remove" />
++    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
++    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
++    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
++
++
++
++    <uses-permission android:name="android.permission.INTERNET" />
++    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
++    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
++    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
++
++    <queries>
++        <provider android:authorities="com.facebook.katana.provider.PlatformProvider" /> <!-- allows app to access Facebook app features -->
++        <provider android:authorities="com.facebook.orca.provider.PlatformProvider" /> <!-- allows sharing to Messenger app -->
++    </queries>
++
++    <application
++        android:allowBackup="true"
++        android:icon="@mipmap/ic_launcher"
++        android:label="@string/app_name"
++        android:roundIcon="@mipmap/ic_launcher_round"
++        android:supportsRtl="true"
++        android:theme="@style/Theme.WebViewApp"
++        android:windowSoftInputMode="stateHidden">
++        <activity
++            android:name=".SplashActivity"
++            android:exported="true">
++            <intent-filter>
++                <action android:name="android.intent.action.MAIN" />
++
++                <category android:name="android.intent.category.LAUNCHER" />
++            </intent-filter>
++        </activity>
++        <activity
++            android:name=".Game.FaqActivity"
++            android:exported="false" />
++        <activity
++            android:name=".Game.MultiPlayerActivity"
++            android:exported="false" />
++        <activity
++            android:name=".Game.SinglePlayerActivity"
++            android:exported="false" />
++        <activity
++            android:name=".Game.UsersActivity"
++            android:exported="false" />
++        <activity
++            android:name=".GameActivity"
++            android:exported="false" />
++        <activity
++            android:name=".BrowserActivity"
++            android:exported="false" />
++        <activity
++            android:name=".Game.SettingsActivity"
++            android:exported="false" />
++        <activity
++            android:name=".AuthActivity"
++            android:exported="false">
++        </activity>
++        <activity android:name=".MainActivity" />
++        <activity
++            android:name="com.facebook.FacebookActivity"
++            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
++            android:label="@string/app_name" />
++        <activity
++            android:name="com.facebook.CustomTabActivity"
++            android:exported="true">
++            <intent-filter>
++                <action android:name="android.intent.action.VIEW" />
++
++                <category android:name="android.intent.category.DEFAULT" />
++                <category android:name="android.intent.category.BROWSABLE" />
++
++                <data android:scheme="@string/fb_login_protocol_scheme" />
++            </intent-filter>
++        </activity>
++
++        <meta-data
++            android:name="com.facebook.sdk.ApplicationId"
++            android:value="@string/facebook_app_id" />
++        <meta-data
++            android:name="com.facebook.sdk.ClientToken"
++            android:value="@string/facebook_client_token" />
++    </application>
++
++</manifest>
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_multi_player.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_multi_player.xml b/app/src/main/res/layout/activity_multi_player.xml
+new file mode 100644
+--- /dev/null	(date 1648712938277)
++++ b/app/src/main/res/layout/activity_multi_player.xml	(date 1648712938277)
+@@ -0,0 +1,169 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:orientation="vertical"
++    tools:context=".MainActivity">
++
++    <TextView
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_gravity="center"
++        android:layout_margin="10dp"
++        android:text="Tic Tac Toe Game"
++        android:textSize="30dp"
++        android:textStyle="bold" />
++
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="30dp"
++        android:gravity="center"
++        android:orientation="horizontal">
++
++        <Button
++            android:id="@+id/Button0"
++            android:layout_width="90dp"
++            android:layout_height="90dp"
++            android:layout_margin="8dp"
++            android:tag="0"
++            android:textColor="@color/black"
++            android:textSize="55dp"
++            app:backgroundTint="@color/button_color"
++            tools:text="0" />
++
++        <Button
++            android:id="@+id/Button1"
++            android:layout_width="90dp"
++            android:layout_height="90dp"
++            android:layout_margin="8dp"
++            android:tag="1"
++            android:textColor="@color/black"
++            android:textSize="55dp"
++            app:backgroundTint="@color/button_color"
++            tools:text="1" />
++
++        <Button
++            android:id="@+id/Button2"
++            android:layout_width="90dp"
++            android:layout_height="90dp"
++            android:layout_margin="8dp"
++            android:tag="2"
++            android:textColor="@color/black"
++            android:textSize="55dp"
++            app:backgroundTint="@color/button_color"
++            tools:text="2" />
++
++
++    </LinearLayout>
++
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:gravity="center"
++        android:orientation="horizontal">
++
++        <Button
++            android:id="@+id/Button3"
++            android:layout_width="90dp"
++            android:layout_height="90dp"
++            android:layout_margin="8dp"
++            android:tag="3"
++            android:textColor="@color/black"
++            android:textSize="55dp"
++            app:backgroundTint="@color/button_color"
++            tools:text="3" />
++
++        <Button
++            android:id="@+id/Button4"
++            android:layout_width="90dp"
++            android:layout_height="90dp"
++            android:layout_margin="8dp"
++            android:tag="4"
++            android:textColor="@color/black"
++            android:textSize="55dp"
++            app:backgroundTint="@color/button_color"
++            tools:text="4" />
++
++        <Button
++            android:id="@+id/Button5"
++            android:layout_width="90dp"
++            android:layout_height="90dp"
++            android:layout_margin="8dp"
++            android:tag="5"
++            android:textColor="@color/black"
++            android:textSize="55dp"
++            app:backgroundTint="@color/button_color"
++            tools:text="5" />
++
++
++    </LinearLayout>
++
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:gravity="center"
++        android:orientation="horizontal">
++
++        <Button
++            android:id="@+id/Button6"
++            android:layout_width="90dp"
++            android:layout_height="90dp"
++            android:layout_margin="8dp"
++            android:tag="6"
++            android:textColor="@color/black"
++            android:textSize="55dp"
++            app:backgroundTint="@color/button_color"
++            tools:text="6" />
++
++        <Button
++            android:id="@+id/Button7"
++            android:layout_width="90dp"
++            android:layout_height="90dp"
++            android:layout_margin="8dp"
++            android:tag="7"
++            android:textColor="@color/black"
++            android:textSize="55dp"
++            app:backgroundTint="@color/button_color"
++            tools:text="7" />
++
++        <Button
++            android:id="@+id/Button8"
++            android:layout_width="90dp"
++            android:layout_height="90dp"
++            android:layout_margin="8dp"
++            android:tag="8"
++            android:textColor="@color/black"
++            android:textSize="55dp"
++            app:backgroundTint="@color/button_color"
++            tools:text="8" />
++
++
++    </LinearLayout>
++
++    <TextView
++        android:id="@+id/UserTurnTxt"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        tools:text="User Turn"
++        android:layout_gravity="center"
++        android:layout_margin="30dp"
++        android:textSize="40dp"
++        android:textStyle="bold"
++        android:textColor="@color/purple_500"
++        />
++
++
++    <Button
++        android:id="@+id/RestartGameBtn"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:text="Restart Game"
++        android:layout_gravity="center"
++        android:textStyle="bold"
++        android:textSize="30dp"/>
++
++
++</LinearLayout>
+\ No newline at end of file
+Index: app/src/main/java/com/example/webviewappa/Game/SinglePlayerActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/webviewappa/Game/SinglePlayerActivity.java b/app/src/main/java/com/example/webviewappa/Game/SinglePlayerActivity.java
+new file mode 100644
+--- /dev/null	(date 1648820706853)
++++ b/app/src/main/java/com/example/webviewappa/Game/SinglePlayerActivity.java	(date 1648820706853)
+@@ -0,0 +1,284 @@
++package com.example.webviewappa.Game;
++
++import androidx.appcompat.app.AlertDialog;
++import androidx.appcompat.app.AppCompatActivity;
++
++import android.content.Context;
++import android.content.DialogInterface;
++import android.content.Intent;
++import android.content.SharedPreferences;
++import android.graphics.Color;
++import android.os.Bundle;
++import android.view.View;
++import android.widget.Button;
++import android.widget.TextView;
++
++import com.example.webviewappa.R;
++
++import java.util.Random;
++
++public class SinglePlayerActivity extends AppCompatActivity implements View.OnClickListener {
++    Button mButton0, mButton1, mButton2, mButton3, mButton4, mButton5, mButton6, mButton7, mButton8;
++    Button restartGameBtn;
++    TextView mTextView;
++    String PlayerName;
++    int PLAYER_Computer = 0;
++    int PLAYER_Human = 1;
++    int activePlayer = PLAYER_Computer;
++    boolean isGameActive = true;
++    int[] filledPositions = {-1, -1, -1, -1, -1, -1, -1, -1, -1};
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_single_player);
++
++        SharedPreferences sharedPreferences = getSharedPreferences("pref", Context.MODE_PRIVATE);
++        SharedPreferences.Editor editor = sharedPreferences.edit();
++
++        String newPlayerName = sharedPreferences.getString("player_name", null);
++
++        if(!newPlayerName.equals("")) {
++           PlayerName = newPlayerName;
++        }
++        //Assigning the address of the Buttons
++        mTextView = (TextView) findViewById(R.id.UserTurnTxt);
++        mButton0 = (Button) findViewById(R.id.Button0);
++        mButton1 = (Button) findViewById(R.id.Button1);
++        mButton2 = (Button) findViewById(R.id.Button2);
++        mButton3 = (Button) findViewById(R.id.Button3);
++        mButton4 = (Button) findViewById(R.id.Button4);
++        mButton5 = (Button) findViewById(R.id.Button5);
++        mButton6 = (Button) findViewById(R.id.Button6);
++        mButton7 = (Button) findViewById(R.id.Button7);
++        mButton8 = (Button) findViewById(R.id.Button8);
++        restartGameBtn = (Button) findViewById(R.id.RestartGameBtn);
++
++        //Onclick Listener to get Button tag and set Text to it.
++        mButton0.setOnClickListener(this);
++        mButton1.setOnClickListener(this);
++        mButton2.setOnClickListener(this);
++        mButton3.setOnClickListener(this);
++        mButton4.setOnClickListener(this);
++        mButton5.setOnClickListener(this);
++        mButton6.setOnClickListener(this);
++        mButton7.setOnClickListener(this);
++        mButton8.setOnClickListener(this);
++
++        //Implementing onClickListener to restart the game
++        restartGameBtn.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                restartGame();
++            }
++        });
++
++        //Calling method to automatically set text and call user to click button
++        compterPlayer();
++    }
++
++    private void compterPlayer() {
++
++        //Generating the random value to click the random button
++        int randomNumber = new Random().nextInt(filledPositions.length);
++
++        //Getting the value from the array
++        int buttonToClick = filledPositions[randomNumber];
++        //checking the button is already clicked or not and setting text and background color for appropriate button and setting the text as users turn
++        if (buttonToClick == -1) {
++            if (randomNumber == 0) {
++                mButton0.setText("O");
++                filledPositions[randomNumber] = PLAYER_Computer;          //updating the value in Array to identify the button is clicked and to check for winner
++                mButton0.setBackgroundColor(Color.RED);
++                activePlayer = PLAYER_Human;
++                mTextView.setText("Player " + PlayerName + " Turn");
++            }
++            if (randomNumber == 1) {
++                mButton1.setText("O");
++                mButton1.setBackgroundColor(Color.RED);
++                filledPositions[randomNumber] = PLAYER_Computer;
++                activePlayer = PLAYER_Human;
++                mTextView.setText("Player " + PlayerName + " Turn");
++            }
++            if (randomNumber == 2) {
++                mButton2.setText("O");
++                mButton2.setBackgroundColor(Color.RED);
++                filledPositions[randomNumber] = PLAYER_Computer;
++                activePlayer = PLAYER_Human;
++                mTextView.setText("Player " + PlayerName + " Turn");
++            }
++            if (randomNumber == 3) {
++                mButton3.setText("O");
++                mButton3.setBackgroundColor(Color.RED);
++                filledPositions[randomNumber] = PLAYER_Computer;
++                activePlayer = PLAYER_Human;
++                mTextView.setText("Player " + PlayerName + " Turn");
++            }
++            if (randomNumber == 4) {
++                mButton4.setText("O");
++                mButton4.setBackgroundColor(Color.RED);
++                filledPositions[randomNumber] = PLAYER_Computer;
++                activePlayer = PLAYER_Human;
++                mTextView.setText("Player " + PlayerName + " Turn");
++            }
++            if (randomNumber == 5) {
++                mButton5.setText("O");
++                mButton5.setBackgroundColor(Color.RED);
++                filledPositions[randomNumber] = PLAYER_Computer;
++                activePlayer = PLAYER_Human;
++                mTextView.setText("Player " + PlayerName + " Turn");
++            }
++            if (randomNumber == 6) {
++                mButton6.setText("O");
++                mButton6.setBackgroundColor(Color.RED);
++                filledPositions[randomNumber] = PLAYER_Computer;
++                activePlayer = PLAYER_Human;
++                mTextView.setText("Player " + PlayerName + " Turn");
++            }
++            if (randomNumber == 7) {
++                mButton7.setText("O");
++                mButton7.setBackgroundColor(Color.RED);
++                filledPositions[randomNumber] = PLAYER_Computer;
++                activePlayer = PLAYER_Human;
++                mTextView.setText("Player " + PlayerName + " Turn");
++            }
++            if (randomNumber == 8) {
++                mButton8.setText("O");
++                mButton8.setBackgroundColor(Color.RED);
++                filledPositions[randomNumber] = PLAYER_Computer;
++                activePlayer = PLAYER_Human;
++                mTextView.setText("Player " + PlayerName + " Turn");
++            }
++        } else {
++            compterPlayer();    //calling the computerPlayer Method if the generated value button is already clicked
++
++        }
++
++        //Checking for winner
++        checkWinner();
++
++        //checking for draw
++        checkDraw();
++
++    }
++
++    @Override
++    public void onClick(View view) {
++
++        //if Game is not Active we will do nothing
++        if (!isGameActive)
++            return;
++
++        //getting buttons id
++        Button clickedBtn = findViewById(view.getId());
++
++        //Getting Tag of the clicked button
++        int clickedTag = Integer.parseInt(view.getTag().toString());
++
++        //if the user clicks the Already clicked button we will do nothing
++        if (filledPositions[clickedTag] != -1) {
++            //Do nothing
++            return;
++
++        }
++        //we will set update the value in array with the Constant value of user
++        filledPositions[clickedTag] = activePlayer;
++
++        //if the Active player is Computer we will set the button text to O and change color and we will set next user as X
++        if (activePlayer == PLAYER_Computer) {
++            compterPlayer();
++        } else {
++            clickedBtn.setText("x");
++            clickedBtn.setBackgroundColor(Color.GREEN);
++            mTextView.setText("Player Compute Turn");
++
++            //Calling the computerPlayer method to automatically select the next button
++            compterPlayer();
++        }
++
++        //Checking for winner
++        checkWinner();
++
++        //checking for draw
++        checkDraw();
++    }
++
++    private void checkDraw() {
++        int count = 0;
++
++        //we will check all the values in the array and increase count if it is not equal to default value
++        for (int i = 0; i < 9; i++) {
++            if (filledPositions[i] != -1) {
++                count++;
++            }
++        }
++
++        //if all the values in array are not equal to default value  we will show as the game is draw
++        if (count == 9) {
++            //Check for whether any player won the game or not before showing draw
++            if (checkWinner())
++                return;
++            showWinner("Game is Draw");
++            isGameActive = false;   //setting the game as inactive
++        }
++    }
++
++    private boolean checkWinner() {
++
++        //Assigning all the possible ways to win in an Array
++        int[][] winningPosition = {{0, 1, 2}, {3, 4, 5}, {6, 7, 8}, {0, 3, 6}, {1, 4, 7}, {2, 5, 8}, {0, 4, 8}, {2, 4, 6}};
++
++        //Getting all the winning positions
++        for (int i = 0; i < 8; i++) {
++            int value0 = winningPosition[i][0];
++            int value1 = winningPosition[i][1];
++            int value2 = winningPosition[i][2];
++
++            //checking whether the value is equal to default value or not
++            if (filledPositions[value0] != -1) {
++                if (filledPositions[value0] == filledPositions[value1] && filledPositions[value1] == filledPositions[value2]) {
++
++
++
++                    //Making the game inActive
++                    isGameActive = false;
++
++                    //Deciding winner
++                    if (filledPositions[value0] == PLAYER_Computer) {
++                        showWinner("Winner is Player O");
++
++                    } else {
++                        showWinner("Winner is Player X");
++                    }
++
++                    //Returning true to prevent showing the result form draw
++                    return true;
++                }
++
++
++            }
++        }
++        return false;
++    }
++
++    private void showWinner(String winner) {
++        //Creating a Alert Dialog to show the winner and for Restarting the Game
++        new AlertDialog.Builder(this)
++                .setTitle(winner)
++                .setPositiveButton("Restart Game", new DialogInterface.OnClickListener() {
++                    @Override
++                    public void onClick(DialogInterface dialogInterface, int i) {
++                        restartGame();
++                    }
++                }).show();
++    }
++
++    private void restartGame() {
++
++        //Calling the Same Intent Again To Restart the Game
++        Intent intent = new Intent(getApplicationContext(), SinglePlayerActivity.class);
++        startActivity(intent);
++        finish();
++    }
++
++}
+\ No newline at end of file
+Index: app/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/.gitignore b/app/.gitignore
+new file mode 100644
+--- /dev/null	(date 1648283194432)
++++ b/app/.gitignore	(date 1648283194432)
+@@ -0,0 +1,1 @@
++/build
+\ No newline at end of file
+Index: app/src/androidTest/java/com/example/webviewappa/ExampleInstrumentedTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/androidTest/java/com/example/webviewappa/ExampleInstrumentedTest.java b/app/src/androidTest/java/com/example/webviewappa/ExampleInstrumentedTest.java
+new file mode 100644
+--- /dev/null	(date 1648820706848)
++++ b/app/src/androidTest/java/com/example/webviewappa/ExampleInstrumentedTest.java	(date 1648820706848)
+@@ -0,0 +1,26 @@
++package com.example.webviewappa;
++
++import android.content.Context;
++
++import androidx.test.platform.app.InstrumentationRegistry;
++import androidx.test.ext.junit.runners.AndroidJUnit4;
++
++import org.junit.Test;
++import org.junit.runner.RunWith;
++
++import static org.junit.Assert.*;
++
++/**
++ * Instrumented test, which will execute on an Android device.
++ *
++ * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
++ */
++@RunWith(AndroidJUnit4.class)
++public class ExampleInstrumentedTest {
++    @Test
++    public void useAppContext() {
++        // Context of the app under test.
++        Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
++        assertEquals("com.example.webviewapp", appContext.getPackageName());
++    }
++}
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_settings.xml b/app/src/main/res/layout/activity_settings.xml
+new file mode 100644
+--- /dev/null	(date 1648798422803)
++++ b/app/src/main/res/layout/activity_settings.xml	(date 1648798422803)
+@@ -0,0 +1,76 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context=".Game.SettingsActivity">
++
++    <TextView
++        android:id="@+id/textView2"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="50dp"
++        android:text="Настройки"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++
++    <TextView
++        android:id="@+id/textView3"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="50dp"
++        android:layout_marginTop="50dp"
++        android:layout_marginEnd="50dp"
++        android:gravity="center"
++        android:text="Имя игрока: "
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/textView2"></TextView>
++
++    <EditText
++        android:id="@+id/playerName"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="50dp"
++        android:layout_marginTop="20dp"
++        android:layout_marginEnd="50dp"
++        android:imeOptions="actionDone"
++        android:singleLine="true"
++        android:hint="Новое имя игрока"
++        android:gravity="center"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/textView3"></EditText>
++
++    <Switch
++        android:id="@+id/darkModeSwitch"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="20dp"
++        android:checked="false"
++        android:text="DarkModeBg"
++        android:textOff="No"
++        android:textOn="Yes"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/playerName" />
++
++
++    <com.google.android.material.button.MaterialButton
++        android:id="@+id/backButton"
++        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_gravity="left"
++        android:textAllCaps="false"
++        android:layout_margin="20dp"
++        android:layout_marginBottom="50dp"
++        android:text="Назад"
++        android:textColor="@color/black"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:strokeColor="@color/black" />
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/java/com/example/webviewappa/Game/SettingsActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/webviewappa/Game/SettingsActivity.java b/app/src/main/java/com/example/webviewappa/Game/SettingsActivity.java
+new file mode 100644
+--- /dev/null	(date 1648820706856)
++++ b/app/src/main/java/com/example/webviewappa/Game/SettingsActivity.java	(date 1648820706856)
+@@ -0,0 +1,131 @@
++package com.example.webviewappa.Game;
++
++
++import androidx.annotation.NonNull;
++import androidx.appcompat.app.AppCompatActivity;
++
++import android.annotation.SuppressLint;
++import android.content.Context;
++import android.content.Intent;
++import android.content.SharedPreferences;
++import android.graphics.Color;
++import android.os.Bundle;
++import android.text.Editable;
++import android.text.TextWatcher;
++import android.view.MotionEvent;
++import android.view.View;
++import android.view.inputmethod.InputMethodManager;
++import android.widget.Button;
++import android.widget.CompoundButton;
++import android.widget.EditText;
++import android.widget.Switch;
++import android.widget.TextView;
++
++import com.example.webviewappa.GameActivity;
++import com.example.webviewappa.R;
++
++public class SettingsActivity extends AppCompatActivity {
++    Button backButton;
++    EditText playerName;
++    Switch darkModeSwitch;
++    Intent intent;
++    TextView textView3;
++    String playerNewName, playerOldName;
++    Boolean darkModeSwitchPosition;
++   @SuppressLint("ResourceAsColor")
++   @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_settings);
++        backButton = findViewById(R.id.backButton);
++        playerName = findViewById(R.id.playerName);
++        darkModeSwitch = findViewById(R.id.darkModeSwitch);
++        textView3 = findViewById(R.id.textView3);
++        darkModeSwitch = findViewById(R.id.darkModeSwitch);
++
++        SharedPreferences sharedPreferences = getSharedPreferences("pref", Context.MODE_PRIVATE);
++        SharedPreferences.Editor editor = sharedPreferences.edit();
++
++
++
++        playerOldName = sharedPreferences.getString("player_name", null);
++
++        darkModeSwitchPosition = sharedPreferences.getBoolean("b", false);
++
++        if(darkModeSwitchPosition) {
++            View view = this.getWindow().getDecorView();
++            view.setBackgroundColor(Color.GRAY);
++        }
++
++        darkModeSwitch.setChecked(darkModeSwitchPosition);
++
++        darkModeSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
++            @Override
++            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
++                if(b == true) {
++                    editor.putBoolean("b", true).commit();
++                    Intent intent = getIntent();
++                    finish();
++                    startActivity(intent);
++                    System.out.println("true");
++                } else {
++                    editor.putBoolean("b", false).commit();
++                    Intent intent = getIntent();
++                    finish();
++                    startActivity(intent);
++                    System.out.println("false");
++                }
++            }
++        });
++
++        if(!playerOldName.equals("")) {
++            textView3.setText("Имя игрока: " + playerOldName);
++        }
++
++        playerName.addTextChangedListener(new TextWatcher() {
++            @Override
++            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
++
++            }
++
++            @Override
++            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
++
++            }
++
++            @Override
++            public void afterTextChanged(Editable editable) {
++                playerNewName = editable.toString();
++
++                editor.putString("player_name", playerNewName);
++                editor.commit();
++
++                textView3.setText("Имя игрока: " + playerNewName);
++
++            }
++        });
++        backButton.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                intent = new Intent(SettingsActivity.this, GameActivity.class);
++                startActivity(intent);
++            }
++        });
++    }
++
++    @Override
++    public boolean dispatchTouchEvent(@NonNull MotionEvent event) {
++        if (event.getAction() == MotionEvent.ACTION_DOWN) {
++            View v = getCurrentFocus();
++            if (v instanceof EditText) {
++                v.clearFocus();
++                InputMethodManager imm = (InputMethodManager) SettingsActivity.this.getSystemService(Context.INPUT_METHOD_SERVICE);
++                imm.hideSoftInputFromWindow(v.getWindowToken(), 0);
++
++            }
++        }
++
++        return super.dispatchTouchEvent(event);
++    }
++
++}
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_users.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_users.xml b/app/src/main/res/layout/activity_users.xml
+new file mode 100644
+--- /dev/null	(date 1648713075908)
++++ b/app/src/main/res/layout/activity_users.xml	(date 1648713075908)
+@@ -0,0 +1,47 @@
++<?xml version="1.0" encoding="utf-8"?>
++<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context=".Game.UsersActivity">
++
++    <TextView
++        android:id="@+id/TextView"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_centerInParent="true"
++        android:text="Вам необходимо выбрать режим игры: "
++        android:textSize="25dp"
++        android:textStyle="bold" />
++
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_below="@id/TextView"
++        android:orientation="horizontal">
++
++
++        <Button
++            android:id="@+id/SinglePlayerBtn"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:layout_gravity="center"
++            android:layout_margin="20dp"
++            android:layout_weight="0.5"
++            android:text="Один игрок" />
++
++        <Button
++            android:id="@+id/MultiPlayerBtn"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:layout_gravity="center"
++            android:layout_margin="20dp"
++            android:layout_weight="0.5"
++            android:text="Два игрока" />
++
++
++    </LinearLayout>
++
++
++</RelativeLayout>
+\ No newline at end of file
+Index: app/src/main/java/com/example/webviewappa/Game/FaqActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/webviewappa/Game/FaqActivity.java b/app/src/main/java/com/example/webviewappa/Game/FaqActivity.java
+new file mode 100644
+--- /dev/null	(date 1648820706839)
++++ b/app/src/main/java/com/example/webviewappa/Game/FaqActivity.java	(date 1648820706839)
+@@ -0,0 +1,31 @@
++package com.example.webviewappa.Game;
++
++import androidx.appcompat.app.AppCompatActivity;
++
++import android.content.Intent;
++import android.os.Bundle;
++import android.view.View;
++import android.widget.Button;
++
++import com.example.webviewappa.GameActivity;
++import com.example.webviewappa.R;
++
++public class FaqActivity extends AppCompatActivity {
++    Button backButton;
++    Intent intent;
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_faq);
++
++        backButton = findViewById(R.id.backButton);
++
++        backButton.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                intent = new Intent(FaqActivity.this, GameActivity.class);
++                startActivity(intent);
++            }
++        });
++    }
++}
+\ No newline at end of file
+Index: app/proguard-rules.pro
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/proguard-rules.pro b/app/proguard-rules.pro
+new file mode 100644
+--- /dev/null	(date 1648283194491)
++++ b/app/proguard-rules.pro	(date 1648283194491)
+@@ -0,0 +1,21 @@
++# Add project specific ProGuard rules here.
++# You can control the set of applied configuration files using the
++# proguardFiles setting in build.gradle.
++#
++# For more details, see
++#   http://developer.android.com/guide/developing/tools/proguard.html
++
++# If your project uses WebView with JS, uncomment the following
++# and specify the fully qualified class name to the JavaScript interface
++# class:
++#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
++#   public *;
++#}
++
++# Uncomment this to preserve the line number information for
++# debugging stack traces.
++#-keepattributes SourceFile,LineNumberTable
++
++# If you keep the line number information, uncomment this to
++# hide the original source file name.
++#-renamesourcefileattribute SourceFile
+\ No newline at end of file
+Index: app/src/main/java/com/example/webviewappa/Game/MultiPlayerActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/webviewappa/Game/MultiPlayerActivity.java b/app/src/main/java/com/example/webviewappa/Game/MultiPlayerActivity.java
+new file mode 100644
+--- /dev/null	(date 1648820706841)
++++ b/app/src/main/java/com/example/webviewappa/Game/MultiPlayerActivity.java	(date 1648820706841)
+@@ -0,0 +1,211 @@
++package com.example.webviewappa.Game;
++
++import androidx.appcompat.app.AlertDialog;
++import androidx.appcompat.app.AppCompatActivity;
++
++import android.content.DialogInterface;
++import android.graphics.Color;
++import android.os.Bundle;
++import android.view.View;
++import android.widget.Button;
++import android.widget.TextView;
++
++import com.example.webviewappa.R;
++
++public class MultiPlayerActivity extends AppCompatActivity implements View.OnClickListener {
++
++    Button mButton0, mButton1, mButton2, mButton3, mButton4, mButton5, mButton6, mButton7, mButton8;
++    Button restartGameBtn;
++    TextView mTextView;
++
++    int PLAYER_O = 0;
++    int PLAYER_X = 1;
++    int activePlayer = PLAYER_O;
++    boolean isGameActive = true;
++    int[] filledPositions = {-1, -1, -1, -1, -1, -1, -1, -1, -1};
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_multi_player);
++
++        //Assigning the address of the Buttons
++        mTextView = (TextView) findViewById(R.id.UserTurnTxt);
++        mButton0 = (Button) findViewById(R.id.Button0);
++        mButton1 = (Button) findViewById(R.id.Button1);
++        mButton2 = (Button) findViewById(R.id.Button2);
++        mButton3 = (Button) findViewById(R.id.Button3);
++        mButton4 = (Button) findViewById(R.id.Button4);
++        mButton5 = (Button) findViewById(R.id.Button5);
++        mButton6 = (Button) findViewById(R.id.Button6);
++        mButton7 = (Button) findViewById(R.id.Button7);
++        mButton8 = (Button) findViewById(R.id.Button8);
++        restartGameBtn = (Button) findViewById(R.id.RestartGameBtn);
++
++        //Onclick Listener to get Button tag and set Text to it.
++        mButton0.setOnClickListener(this);
++        mButton1.setOnClickListener(this);
++        mButton2.setOnClickListener(this);
++        mButton3.setOnClickListener(this);
++        mButton4.setOnClickListener(this);
++        mButton5.setOnClickListener(this);
++        mButton6.setOnClickListener(this);
++        mButton7.setOnClickListener(this);
++        mButton8.setOnClickListener(this);
++
++
++        //Implementing onClickListener to restart the game
++        restartGameBtn.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                restartGame();
++            }
++        });
++    }
++    //Calling when the user clicks on Any Button
++    @Override
++    public void onClick(View view) {
++
++        //if Game is not Active we will do nothing
++        if (!isGameActive)
++            return;
++
++        //getting buttons id
++        Button clickedBtn = findViewById(view.getId());
++
++        //Getting Tag of the clicked button
++        int clickedTag = Integer.parseInt(view.getTag().toString());
++
++        //if the user clicks the Already clicked button we will do nothing
++        if (filledPositions[clickedTag] != -1) {
++            //Do nothing
++            return;
++
++        }
++        //we will set update the value in array with the Constant value of user
++        filledPositions[clickedTag] = activePlayer;
++
++        //if the Active player is O we will set the button text to O and change color and we will set next user as X
++        if (activePlayer == PLAYER_O) {
++            clickedBtn.setText("o");
++            clickedBtn.setBackgroundColor(Color.RED);
++            activePlayer = PLAYER_X;
++            mTextView.setText("Player X-Turn");
++        } else {
++            clickedBtn.setText("x");
++            activePlayer = PLAYER_O;
++            clickedBtn.setBackgroundColor(Color.GREEN);
++            mTextView.setText("Player O-Turn");
++        }
++
++        //check for winner
++        checkWinner();
++
++        //check for Draw
++        checkDraw();
++    }
++
++    private void checkDraw() {
++        int count = 0;
++
++        //we will check all the values in the array and increase count if it is not equal to default value
++        for (int i = 0; i < 9; i++) {
++            if (filledPositions[i] != -1) {
++                count++;
++            }
++        }
++        //if all the values in array are not equal to default value  we will show as the game is draw
++        if (count == 9) {
++            //Check for whether any player won the game or not before showing draw
++            if (checkWinner())
++                return;
++            showWinner("Game is Draw");
++            isGameActive = false;  //setting the game to inactive
++        }
++    }
++
++    private boolean checkWinner() {
++
++        //Assigning all the possible ways to win in an Array
++        int[][] winningPosition = {{0, 1, 2}, {3, 4, 5}, {6, 7, 8}, {0, 3, 6}, {1, 4, 7}, {2, 5, 8}, {0, 4, 8}, {2, 4, 6}};
++
++        //Getting all the winning positions
++        for (int i = 0; i < 8; i++) {
++            int value0 = winningPosition[i][0];
++            int value1 = winningPosition[i][1];
++            int value2 = winningPosition[i][2];
++
++            //checking whether the value is equal to default value or not
++            if (filledPositions[value0] != -1) {
++                if (filledPositions[value0] == filledPositions[value1] && filledPositions[value1] == filledPositions[value2]) {
++
++                    //Making the game inActive
++                    isGameActive = false;
++
++                    //Deciding winner
++                    if (filledPositions[value0] == PLAYER_O) {
++                        showWinner("Winner is Player O");
++
++                    } else {
++                        showWinner("Winner is Player X");
++                    }
++                    //Returning true to prevent showing the result form draw
++                    return true;
++                }
++
++
++            }
++        }
++        return false;
++    }
++
++    private void showWinner(String winner) {
++
++        //Creating a Alert Dialog to show the winner and for Restarting the Game
++        new AlertDialog.Builder(this)
++                .setTitle(winner)
++                .setPositiveButton("Restart Game", new DialogInterface.OnClickListener() {
++                    @Override
++                    public void onClick(DialogInterface dialogInterface, int i) {
++                        restartGame();
++                    }
++                }).show();
++    }
++
++    private void restartGame() {
++
++        //Setting the default palyer to Player O
++        activePlayer = PLAYER_O;
++
++        //Setting the all the values to default
++        filledPositions = new int[]{-1, -1, -1, -1, -1, -1, -1, -1, -1};
++
++        //Setting all the Text on the buttons to empty
++        mButton0.setText("");
++        mButton1.setText("");
++        mButton2.setText("");
++        mButton3.setText("");
++        mButton4.setText("");
++        mButton5.setText("");
++        mButton6.setText("");
++        mButton7.setText("");
++        mButton8.setText("");
++
++        //setting the default color for buttons
++        mButton0.setBackgroundColor(Color.parseColor("#BFBFBF"));
++        mButton1.setBackgroundColor(Color.parseColor("#BFBFBF"));
++        mButton2.setBackgroundColor(Color.parseColor("#BFBFBF"));
++        mButton3.setBackgroundColor(Color.parseColor("#BFBFBF"));
++        mButton4.setBackgroundColor(Color.parseColor("#BFBFBF"));
++        mButton5.setBackgroundColor(Color.parseColor("#BFBFBF"));
++        mButton6.setBackgroundColor(Color.parseColor("#BFBFBF"));
++        mButton7.setBackgroundColor(Color.parseColor("#BFBFBF"));
++        mButton8.setBackgroundColor(Color.parseColor("#BFBFBF"));
++
++        //showing the text as player O's turn
++        mTextView.setText("Player O Turn");
++
++        //making the game active again
++        isGameActive = true;
++    }
++}
+\ No newline at end of file
+Index: app/src/test/java/com/example/webviewappa/ExampleUnitTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/test/java/com/example/webviewappa/ExampleUnitTest.java b/app/src/test/java/com/example/webviewappa/ExampleUnitTest.java
+new file mode 100644
+--- /dev/null	(date 1648820706832)
++++ b/app/src/test/java/com/example/webviewappa/ExampleUnitTest.java	(date 1648820706832)
+@@ -0,0 +1,17 @@
++package com.example.webviewappa;
++
++import org.junit.Test;
++
++import static org.junit.Assert.*;
++
++/**
++ * Example local unit test, which will execute on the development machine (host).
++ *
++ * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
++ */
++public class ExampleUnitTest {
++    @Test
++    public void addition_isCorrect() {
++        assertEquals(4, 2 + 2);
++    }
++}
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_splash.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_splash.xml b/app/src/main/res/layout/activity_splash.xml
+new file mode 100644
+--- /dev/null	(date 1648814795751)
++++ b/app/src/main/res/layout/activity_splash.xml	(date 1648814795751)
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context=".SplashActivity">
++
++    <ImageView
++        android:id="@+id/imageView"
++        android:src="@drawable/img"
++        android:layout_width="120dp"
++        android:layout_height="120dp"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/java/com/example/webviewappa/SplashActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/webviewappa/SplashActivity.java b/app/src/main/java/com/example/webviewappa/SplashActivity.java
+new file mode 100644
+--- /dev/null	(date 1648823823715)
++++ b/app/src/main/java/com/example/webviewappa/SplashActivity.java	(date 1648823823715)
+@@ -0,0 +1,90 @@
++  package com.example.webviewappa;
++
++import androidx.annotation.NonNull;
++import androidx.appcompat.app.AppCompatActivity;
++
++import android.content.Intent;
++import android.os.Bundle;
++import android.util.Log;
++
++import com.appsflyer.AppsFlyerConversionListener;
++import com.appsflyer.AppsFlyerLib;
++import com.appsflyer.attribution.AppsFlyerRequestListener;
++import com.onesignal.OSDeviceState;
++import com.onesignal.OneSignal;
++
++import java.util.Map;
++
++  public class SplashActivity extends AppCompatActivity {
++    private static final String ONESIGNAL_APP_ID = "3e75cb32-c63c-473e-a47e-0a1ca8cf983f";
++
++        private static final String AF_DEV_KEY = "A3QsSUSmR9VDSbPzrQtcy3";
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_splash);
++        //OneSignal
++
++        OneSignal.initWithContext(SplashActivity.this);
++        OneSignal.setAppId(ONESIGNAL_APP_ID);
++
++        //AppsFlyer
++        AppsFlyerConversionListener conversionListener = new AppsFlyerConversionListener() {
++            @Override
++            public void onConversionDataSuccess(Map<String, Object> map) {
++//                System.out.println("Ok");
++            }
++
++            @Override
++            public void onConversionDataFail(String s) {
++
++            }
++
++            @Override
++            public void onAppOpenAttribution(Map<String, String> map) {
++
++            }
++
++            @Override
++            public void onAttributionFailure(String s) {
++                System.out.println(s);
++            }
++        };
++
++//        AppsFlyerLib.getInstance().init(AF_DEV_KEY, conversionListener, this);
++//        AppsFlyerLib.getInstance().start(this);
++//        AppsFlyerLib.getInstance().setDebugLog(true);
++
++
++
++        OSDeviceState device = OneSignal.getDeviceState();
++        String userId = device.getUserId();
++
++
++        Thread splashScreenStarter = new Thread() {
++            public void run() {
++                try {
++                    int delay = 0;
++                    while (delay < 2000) {
++                        sleep(150);
++                        delay = delay + 100;
++                    }
++
++                    startActivity(new Intent(SplashActivity.this, AuthActivity.class));
++
++                } catch (InterruptedException e) {
++                    e.printStackTrace();
++                } finally {
++                    finish();
++                }
++            }
++
++        };
++
++        if(!userId.equals("")) {
++            splashScreenStarter.start();
++        }
++
++    }
++
++}
+\ No newline at end of file
+Index: app/src/main/res/drawable/ic_launcher_background.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/drawable/ic_launcher_background.xml b/app/src/main/res/drawable/ic_launcher_background.xml
+new file mode 100644
+--- /dev/null	(date 1648283195117)
++++ b/app/src/main/res/drawable/ic_launcher_background.xml	(date 1648283195117)
+@@ -0,0 +1,170 @@
++<?xml version="1.0" encoding="utf-8"?>
++<vector xmlns:android="http://schemas.android.com/apk/res/android"
++    android:width="108dp"
++    android:height="108dp"
++    android:viewportWidth="108"
++    android:viewportHeight="108">
++    <path
++        android:fillColor="#3DDC84"
++        android:pathData="M0,0h108v108h-108z" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M9,0L9,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M19,0L19,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M29,0L29,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M39,0L39,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M49,0L49,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M59,0L59,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M69,0L69,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M79,0L79,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M89,0L89,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M99,0L99,108"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,9L108,9"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,19L108,19"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,29L108,29"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,39L108,39"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,49L108,49"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,59L108,59"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,69L108,69"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,79L108,79"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,89L108,89"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M0,99L108,99"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M19,29L89,29"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M19,39L89,39"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M19,49L89,49"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M19,59L89,59"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M19,69L89,69"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M19,79L89,79"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M29,19L29,89"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M39,19L39,89"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M49,19L49,89"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M59,19L59,89"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M69,19L69,89"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++    <path
++        android:fillColor="#00000000"
++        android:pathData="M79,19L79,89"
++        android:strokeWidth="0.8"
++        android:strokeColor="#33FFFFFF" />
++</vector>
+Index: app/src/main/java/com/example/webviewappa/BrowserActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/webviewappa/BrowserActivity.java b/app/src/main/java/com/example/webviewappa/BrowserActivity.java
+new file mode 100644
+--- /dev/null	(date 1648820706844)
++++ b/app/src/main/java/com/example/webviewappa/BrowserActivity.java	(date 1648820706844)
+@@ -0,0 +1,55 @@
++package com.example.webviewappa;
++
++import androidx.appcompat.app.AppCompatActivity;
++
++import android.content.Intent;
++import android.os.Bundle;
++import android.view.KeyEvent;
++import android.view.View;
++import android.webkit.WebSettings;
++import android.webkit.WebView;
++import android.widget.Button;
++
++public class BrowserActivity extends AppCompatActivity {
++    Button backButton;
++    Intent intent;
++    private WebView webView;
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_browser);
++        backButton = findViewById(R.id.backButton);
++
++
++        webView = (WebView) findViewById (R.id.webView);
++
++
++
++        WebSettings webSettings = webView.getSettings();
++        webSettings.setJavaScriptEnabled(true);
++        webSettings.setDomStorageEnabled(true);
++
++        WebViewClient webViewClient = new WebViewClient(this);
++        webView.setWebViewClient(webViewClient);
++
++        webView.loadUrl("https://parimatch.com/");
++
++        backButton.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                intent = new Intent(BrowserActivity.this, AuthActivity.class);
++                startActivity(intent);
++            }
++        });
++    }
++
++    @Override
++    public boolean onKeyDown(int keyCode, KeyEvent event) {
++        if ((keyCode == KeyEvent.KEYCODE_BACK) && this.webView.canGoBack()) {
++            this.webView.goBack();
++            return true;
++        }
++
++        return super.onKeyDown(keyCode, event);
++    }
++}
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_game.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_game.xml b/app/src/main/res/layout/activity_game.xml
+new file mode 100644
+--- /dev/null	(date 1648712367990)
++++ b/app/src/main/res/layout/activity_game.xml	(date 1648712367990)
+@@ -0,0 +1,75 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context=".GameActivity">
++
++    <TextView
++        android:id="@+id/textView2"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="50dp"
++        android:text="Добро пожаловать в TicTacToe!"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++
++    <Button
++        android:id="@+id/GetStartedBtn"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_alignParentBottom="true"
++        android:layout_marginStart="100dp"
++        android:layout_marginTop="100dp"
++        android:layout_marginEnd="100dp"
++        android:text="Начать играть"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/textView2" />
++
++    <Button
++        android:id="@+id/btnfaq"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_alignParentBottom="true"
++        android:layout_marginStart="100dp"
++        android:layout_marginTop="50dp"
++        android:layout_marginEnd="100dp"
++        android:text="Инструкция"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/GetStartedBtn" />
++
++
++    <Button
++        android:id="@+id/gameSettings"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_alignParentBottom="true"
++        android:layout_marginStart="100dp"
++        android:layout_marginTop="50dp"
++        android:layout_marginEnd="100dp"
++        android:text="Настройки игры"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/btnfaq" />
++
++    <com.google.android.material.button.MaterialButton
++        android:id="@+id/backButton"
++        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_gravity="left"
++        android:textAllCaps="false"
++        android:layout_margin="20dp"
++        android:layout_marginBottom="50dp"
++        android:text="Назад"
++        android:textColor="@color/black"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:strokeColor="@color/black" />
++
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml b/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+new file mode 100644
+--- /dev/null	(date 1648283194947)
++++ b/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml	(date 1648283194947)
+@@ -0,0 +1,5 @@
++<?xml version="1.0" encoding="utf-8"?>
++<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
++    <background android:drawable="@drawable/ic_launcher_background" />
++    <foreground android:drawable="@drawable/ic_launcher_foreground" />
++</adaptive-icon>
+\ No newline at end of file
+Index: app/src/main/java/com/example/webviewappa/GameActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/webviewappa/GameActivity.java b/app/src/main/java/com/example/webviewappa/GameActivity.java
+new file mode 100644
+--- /dev/null	(date 1648820706850)
++++ b/app/src/main/java/com/example/webviewappa/GameActivity.java	(date 1648820706850)
+@@ -0,0 +1,59 @@
++package com.example.webviewappa;
++
++import androidx.appcompat.app.AppCompatActivity;
++
++import android.content.Intent;
++import android.os.Bundle;
++import android.view.View;
++import android.widget.Button;
++
++import com.example.webviewappa.Game.FaqActivity;
++import com.example.webviewappa.Game.SettingsActivity;
++import com.example.webviewappa.Game.UsersActivity;
++
++public class GameActivity extends AppCompatActivity {
++    Button backButton, getStartedBtn, btnfaq, gameSettings;
++    Intent intent;
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_game);
++        backButton = findViewById(R.id.backButton);
++
++        getStartedBtn=(Button)findViewById(R.id.GetStartedBtn);
++        btnfaq = (Button) findViewById(R.id.btnfaq);
++        gameSettings = (Button) findViewById(R.id.gameSettings);
++
++        gameSettings.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                Intent intent=new Intent(getApplicationContext(), SettingsActivity.class);
++                startActivity(intent);
++            }
++        });
++
++        btnfaq.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                Intent intent=new Intent(getApplicationContext(), FaqActivity.class);
++                startActivity(intent);
++            }
++        });
++
++        getStartedBtn.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                Intent intent=new Intent(getApplicationContext(), UsersActivity.class);
++                startActivity(intent);
++            }
++        });
++
++        backButton.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                intent = new Intent(GameActivity.this, AuthActivity.class);
++                startActivity(intent);
++            }
++        });
++    }
++}
+\ No newline at end of file
+Index: .idea/deploymentTargetDropDown.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/deploymentTargetDropDown.xml b/.idea/deploymentTargetDropDown.xml
+new file mode 100644
+--- /dev/null	(date 1648800535960)
++++ b/.idea/deploymentTargetDropDown.xml	(date 1648800535960)
+@@ -0,0 +1,17 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="deploymentTargetDropDown">
++    <targetSelectedWithDropDown>
++      <Target>
++        <type value="QUICK_BOOT_TARGET" />
++        <deviceKey>
++          <Key>
++            <type value="VIRTUAL_DEVICE_PATH" />
++            <value value="C:\Users\petif\.android\avd\Pixel_4_API_30.avd" />
++          </Key>
++        </deviceKey>
++      </Target>
++    </targetSelectedWithDropDown>
++    <timeTargetWasSelectedWithDropDown value="2022-04-01T08:05:27.417564200Z" />
++  </component>
++</project>
+\ No newline at end of file
+Index: app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/values/strings.xml b/app/src/main/res/values/strings.xml
+new file mode 100644
+--- /dev/null	(date 1648811078713)
++++ b/app/src/main/res/values/strings.xml	(date 1648811078713)
+@@ -0,0 +1,6 @@
++<resources>
++    <string name="app_name">TestGameApp</string>
++    <string name="facebook_app_id">978193203070221</string>
++    <string name="fb_login_protocol_scheme">fb1234</string>
++    <string name="facebook_client_token">d864473af66f23825e4c584824195cb4</string>
++</resources>
+\ No newline at end of file
+Index: app/src/main/res/drawable-v24/ic_launcher_foreground.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/drawable-v24/ic_launcher_foreground.xml b/app/src/main/res/drawable-v24/ic_launcher_foreground.xml
+new file mode 100644
+--- /dev/null	(date 1648283195131)
++++ b/app/src/main/res/drawable-v24/ic_launcher_foreground.xml	(date 1648283195131)
+@@ -0,0 +1,30 @@
++<vector xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:aapt="http://schemas.android.com/aapt"
++    android:width="108dp"
++    android:height="108dp"
++    android:viewportWidth="108"
++    android:viewportHeight="108">
++    <path android:pathData="M31,63.928c0,0 6.4,-11 12.1,-13.1c7.2,-2.6 26,-1.4 26,-1.4l38.1,38.1L107,108.928l-32,-1L31,63.928z">
++        <aapt:attr name="android:fillColor">
++            <gradient
++                android:endX="85.84757"
++                android:endY="92.4963"
++                android:startX="42.9492"
++                android:startY="49.59793"
++                android:type="linear">
++                <item
++                    android:color="#44000000"
++                    android:offset="0.0" />
++                <item
++                    android:color="#00000000"
++                    android:offset="1.0" />
++            </gradient>
++        </aapt:attr>
++    </path>
++    <path
++        android:fillColor="#FFFFFF"
++        android:fillType="nonZero"
++        android:pathData="M65.3,45.828l3.8,-6.6c0.2,-0.4 0.1,-0.9 -0.3,-1.1c-0.4,-0.2 -0.9,-0.1 -1.1,0.3l-3.9,6.7c-6.3,-2.8 -13.4,-2.8 -19.7,0l-3.9,-6.7c-0.2,-0.4 -0.7,-0.5 -1.1,-0.3C38.8,38.328 38.7,38.828 38.9,39.228l3.8,6.6C36.2,49.428 31.7,56.028 31,63.928h46C76.3,56.028 71.8,49.428 65.3,45.828zM43.4,57.328c-0.8,0 -1.5,-0.5 -1.8,-1.2c-0.3,-0.7 -0.1,-1.5 0.4,-2.1c0.5,-0.5 1.4,-0.7 2.1,-0.4c0.7,0.3 1.2,1 1.2,1.8C45.3,56.528 44.5,57.328 43.4,57.328L43.4,57.328zM64.6,57.328c-0.8,0 -1.5,-0.5 -1.8,-1.2s-0.1,-1.5 0.4,-2.1c0.5,-0.5 1.4,-0.7 2.1,-0.4c0.7,0.3 1.2,1 1.2,1.8C66.5,56.528 65.6,57.328 64.6,57.328L64.6,57.328z"
++        android:strokeWidth="1"
++        android:strokeColor="#00000000" />
++</vector>
+\ No newline at end of file
+Index: app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml b/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+new file mode 100644
+--- /dev/null	(date 1648283195139)
++++ b/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml	(date 1648283195139)
+@@ -0,0 +1,5 @@
++<?xml version="1.0" encoding="utf-8"?>
++<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
++    <background android:drawable="@drawable/ic_launcher_background" />
++    <foreground android:drawable="@drawable/ic_launcher_foreground" />
++</adaptive-icon>
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_browser.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_browser.xml b/app/src/main/res/layout/activity_browser.xml
+new file mode 100644
+--- /dev/null	(date 1648563024096)
++++ b/app/src/main/res/layout/activity_browser.xml	(date 1648563024096)
+@@ -0,0 +1,49 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context=".BrowserActivity">
++    <TextView
++        android:id="@+id/textView2"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="50dp"
++        android:text="Браузер"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++
++    <WebView
++        android:id="@+id/webView"
++        android:layout_width="0dp"
++        android:layout_height="0dp"
++        android:layout_alignParentLeft="true"
++        android:layout_alignParentTop="true"
++        android:layout_marginStart="8dp"
++        android:layout_marginTop="8dp"
++        android:layout_marginEnd="8dp"
++        android:layout_marginBottom="8dp"
++        app:layout_constraintBottom_toTopOf="@+id/backButton"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/textView2" />
++
++    <com.google.android.material.button.MaterialButton
++        android:id="@+id/backButton"
++        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_gravity="left"
++        android:textAllCaps="false"
++        android:layout_margin="20dp"
++        android:layout_marginBottom="50dp"
++        android:text="Назад"
++        android:textColor="@color/black"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:strokeColor="@color/black" />
++
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/res/values-night/themes.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/values-night/themes.xml b/app/src/main/res/values-night/themes.xml
+new file mode 100644
+--- /dev/null	(date 1648283195231)
++++ b/app/src/main/res/values-night/themes.xml	(date 1648283195231)
+@@ -0,0 +1,16 @@
++<resources xmlns:tools="http://schemas.android.com/tools">
++    <!-- Base application theme. -->
++    <style name="Theme.WebViewApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
++        <!-- Primary brand color. -->
++        <item name="colorPrimary">@color/purple_200</item>
++        <item name="colorPrimaryVariant">@color/purple_700</item>
++        <item name="colorOnPrimary">@color/black</item>
++        <!-- Secondary brand color. -->
++        <item name="colorSecondary">@color/teal_200</item>
++        <item name="colorSecondaryVariant">@color/teal_200</item>
++        <item name="colorOnSecondary">@color/black</item>
++        <!-- Status bar color. -->
++        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
++        <!-- Customize your theme here. -->
++    </style>
++</resources>
+\ No newline at end of file
+Index: app/src/main/res/values/themes.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/values/themes.xml b/app/src/main/res/values/themes.xml
+new file mode 100644
+--- /dev/null	(date 1648814553843)
++++ b/app/src/main/res/values/themes.xml	(date 1648814553843)
+@@ -0,0 +1,16 @@
++<resources xmlns:tools="http://schemas.android.com/tools">
++    <!-- Base application theme. -->
++    <style name="Theme.WebViewApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
++        <!-- Primary brand color. -->
++        <item name="colorPrimary">@color/purple_500</item>
++        <item name="colorPrimaryVariant">@color/purple_700</item>
++        <item name="colorOnPrimary">@color/white</item>
++        <!-- Secondary brand color. -->
++        <item name="colorSecondary">@color/teal_200</item>
++        <item name="colorSecondaryVariant">@color/teal_700</item>
++        <item name="colorOnSecondary">@color/black</item>
++        <!-- Status bar color. -->
++        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
++        <!-- Customize your theme here. -->
++    </style>
++</resources>
+\ No newline at end of file
+Index: app/src/main/res/drawable/my_button.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/drawable/my_button.xml b/app/src/main/res/drawable/my_button.xml
+new file mode 100644
+--- /dev/null	(date 1648560272371)
++++ b/app/src/main/res/drawable/my_button.xml	(date 1648560272371)
+@@ -0,0 +1,5 @@
++<?xml version="1.0" encoding="utf-8"?>
++<shape shape="rectangle">
++    <stroke width="2dp" color="@android:color/white" /> // You may change color as per your need
++    <solid color="@android:color/transparent" />
++</shape>
+\ No newline at end of file
+Index: app/src/main/java/com/example/webviewappa/AuthActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/webviewappa/AuthActivity.java b/app/src/main/java/com/example/webviewappa/AuthActivity.java
+new file mode 100644
+--- /dev/null	(date 1648820706819)
++++ b/app/src/main/java/com/example/webviewappa/AuthActivity.java	(date 1648820706819)
+@@ -0,0 +1,101 @@
++package com.example.webviewappa;
++
++import android.content.Context;
++import android.content.Intent;
++import android.content.SharedPreferences;
++import android.os.Bundle;
++
++import androidx.annotation.NonNull;
++import androidx.appcompat.app.AppCompatActivity;
++
++import com.facebook.AccessToken;
++import com.facebook.CallbackManager;
++import com.facebook.FacebookCallback;
++import com.facebook.FacebookException;
++import com.facebook.GraphRequest;
++import com.facebook.GraphResponse;
++import com.facebook.login.LoginResult;
++import com.facebook.login.widget.LoginButton;
++
++import org.json.JSONException;
++import org.json.JSONObject;
++
++import java.util.Arrays;
++
++public class AuthActivity extends AppCompatActivity {
++    CallbackManager callbackManager;
++    LoginButton loginButton;
++    String name, id;
++    private static final String ONESIGNAL_APP_ID = "3e75cb32-c63c-473e-a47e-0a1ca8cf983f";
++    Intent intent;
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.authactivity);
++
++
++        SharedPreferences sharedPreferences = getSharedPreferences("pref", Context.MODE_PRIVATE);
++        SharedPreferences.Editor editor = sharedPreferences.edit();
++        String userId = sharedPreferences.getString("id", "");
++
++        if(!userId.equalsIgnoreCase(""))
++        {
++           intent = new Intent(AuthActivity.this, MainActivity.class);
++           startActivity(intent);
++        }
++
++        // FB Auth
++        callbackManager = CallbackManager.Factory.create();
++        loginButton = (LoginButton) findViewById(R.id.login_button);
++        loginButton.setPermissions(Arrays.asList("public_profile, email"));
++        loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
++            @Override
++            public void onSuccess(LoginResult loginResult) {
++                System.out.println("Loggin done");
++
++                // login ok get access token
++                AccessToken accessToken = AccessToken.getCurrentAccessToken();
++                GraphRequest request = GraphRequest.newMeRequest(accessToken, new GraphRequest.GraphJSONObjectCallback() {
++                    @Override
++                    public void onCompleted(
++                            JSONObject object,
++                            GraphResponse response) {
++                            if(object != null) {
++                                try {
++                                    id = object.getString("id");
++                                    name = object.getString("name");
++                                } catch (JSONException e) {
++                                    e.printStackTrace();
++                                }
++
++                                editor.putString("id", id);
++                                editor.putString("name", name);
++                                editor.putString("player_name", name);
++                                editor.putBoolean("b", false);
++                                editor.commit();
++                                Intent intent = new Intent(AuthActivity.this, MainActivity.class);
++                                startActivity(intent);
++                        }
++                    }
++                });
++                Bundle parameters = new Bundle();
++                parameters.putString("fields", "id,name,email");
++                request.setParameters(parameters);
++                request.executeAsync();
++
++            }
++
++            @Override
++            public void onCancel() {
++                System.out.println("Loggin cancel");
++            }
++
++            @Override
++            public void onError(@NonNull FacebookException e) {
++                System.out.println("Loggin error");
++            }
++        });
++
++    }
++
++}
+Index: app/src/main/res/values/colors.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/values/colors.xml b/app/src/main/res/values/colors.xml
+new file mode 100644
+--- /dev/null	(date 1648802623941)
++++ b/app/src/main/res/values/colors.xml	(date 1648802623941)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="utf-8"?>
++<resources>
++    <color name="purple_200">#FFBB86FC</color>
++    <color name="purple_500">#FF6200EE</color>
++    <color name="purple_700">#FF3700B3</color>
++    <color name="teal_200">#FF03DAC5</color>
++    <color name="teal_700">#FF018786</color>
++    <color name="black">#FF000000</color>
++    <color name="white">#FFFFFFFF</color>
++    <color name="button_color">#BFBFBF</color>
++    <color name="lightDark">#555555</color>
++</resources>
+\ No newline at end of file
+Index: app/src/main/res/layout/authactivity.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/authactivity.xml b/app/src/main/res/layout/authactivity.xml
+new file mode 100644
+--- /dev/null	(date 1648551797858)
++++ b/app/src/main/res/layout/authactivity.xml	(date 1648551797858)
+@@ -0,0 +1,29 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context=".AuthActivity">
++
++    <com.facebook.login.widget.LoginButton
++        android:id="@+id/login_button"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="30dp"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/textView" />
++
++    <TextView
++        android:id="@+id/textView"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:gravity="center"
++        android:text="Добро пожаловать! \n Для того что-бы начать \n Вам необходимо авторизоваться."
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/java/com/example/webviewappa/WebViewClient.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/webviewappa/WebViewClient.java b/app/src/main/java/com/example/webviewappa/WebViewClient.java
+new file mode 100644
+--- /dev/null	(date 1648820706835)
++++ b/app/src/main/java/com/example/webviewappa/WebViewClient.java	(date 1648820706835)
+@@ -0,0 +1,24 @@
++package com.example.webviewappa;
++
++import android.app.Activity;
++import android.content.Intent;
++import android.net.Uri;
++import android.webkit.WebView;
++
++public class WebViewClient extends android.webkit.WebViewClient {
++    private Activity activity = null;
++
++    public WebViewClient(Activity activity) {
++        this.activity = activity;
++    }
++
++    @Override
++    public boolean shouldOverrideUrlLoading (WebView webView, String url) {
++        if(url.contains("parimatch.com")) {
++            return false;
++        }
++        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
++        activity.startActivity(intent);
++        return true;
++    }
++}
+Index: settings.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/settings.gradle b/settings.gradle
+new file mode 100644
+--- /dev/null	(date 1648283194665)
++++ b/settings.gradle	(date 1648283194665)
+@@ -0,0 +1,16 @@
++pluginManagement {
++    repositories {
++        gradlePluginPortal()
++        google()
++        mavenCentral()
++    }
++}
++dependencyResolutionManagement {
++    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
++    repositories {
++        google()
++        mavenCentral()
++    }
++}
++rootProject.name = "WebViewApp"
++include ':app'
+Index: app/src/main/java/com/example/webviewappa/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/webviewappa/MainActivity.java b/app/src/main/java/com/example/webviewappa/MainActivity.java
+new file mode 100644
+--- /dev/null	(date 1648820706822)
++++ b/app/src/main/java/com/example/webviewappa/MainActivity.java	(date 1648820706822)
+@@ -0,0 +1,68 @@
++package com.example.webviewappa;
++import androidx.appcompat.app.AppCompatActivity;
++
++import android.content.Context;
++import android.content.Intent;
++import android.content.SharedPreferences;
++import android.os.Bundle;
++import android.view.View;
++import android.widget.Button;
++import android.widget.TextView;
++
++import com.facebook.login.LoginManager;
++
++public class MainActivity extends AppCompatActivity {
++
++    SharedPreferences sharedPreferences;
++    SharedPreferences.Editor editor;
++    Intent intent;
++    Button exitButton, startGameBtn, browserBtn, settingsBtn;
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_main);
++
++        sharedPreferences = getSharedPreferences("pref", Context.MODE_PRIVATE);
++        String userName = sharedPreferences.getString("name", "");
++        editor = sharedPreferences.edit();
++
++        exitButton = findViewById(R.id.exitButton);
++        browserBtn = findViewById(R.id.browserBtn);
++        startGameBtn = findViewById(R.id.startGameBtn);
++
++        TextView helloUserText = findViewById(R.id.helloUserText);
++
++        if(!userName.equalsIgnoreCase("")){
++            helloUserText.setText("Добро пожаловать : " + userName);
++        }
++        exitButton.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                editor.putString("id", "");
++                editor.commit();
++                LoginManager.getInstance().logOut();
++                intent = new Intent(MainActivity.this, AuthActivity.class);
++                startActivity(intent);
++            }
++        });
++
++
++        browserBtn.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                intent = new Intent(MainActivity.this, BrowserActivity.class);
++                startActivity(intent);
++            }
++        });
++
++        startGameBtn.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                intent = new Intent(MainActivity.this, GameActivity.class);
++                startActivity(intent);
++            }
++        });
++
++    }
++
++}
+\ No newline at end of file
+Index: gradle.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/gradle.properties b/gradle.properties
+new file mode 100644
+--- /dev/null	(date 1648283194341)
++++ b/gradle.properties	(date 1648283194341)
+@@ -0,0 +1,21 @@
++# Project-wide Gradle settings.
++# IDE (e.g. Android Studio) users:
++# Gradle settings configured through the IDE *will override*
++# any settings specified in this file.
++# For more details on how to configure your build environment visit
++# http://www.gradle.org/docs/current/userguide/build_environment.html
++# Specifies the JVM arguments used for the daemon process.
++# The setting is particularly useful for tweaking memory settings.
++org.gradle.jvmargs=-Xmx2048m -Dfile.encoding=UTF-8
++# When configured, Gradle will run in incubating parallel mode.
++# This option should only be used with decoupled projects. More details, visit
++# http://www.gradle.org/docs/current/userguide/multi_project_builds.html#sec:decoupled_projects
++# org.gradle.parallel=true
++# AndroidX package structure to make it clearer which packages are bundled with the
++# Android operating system, and which are packaged with your app"s APK
++# https://developer.android.com/topic/libraries/support-library/androidx-rn
++android.useAndroidX=true
++# Enables namespacing of each library's R class so that its R class includes only the
++# resources declared in the library itself and none from the library's dependencies,
++# thereby reducing the size of the R class for that library
++android.nonTransitiveRClass=true
+\ No newline at end of file
+Index: build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/build.gradle b/build.gradle
+new file mode 100644
+--- /dev/null	(date 1648286018927)
++++ b/build.gradle	(date 1648286018927)
+@@ -0,0 +1,23 @@
++// Top-level build file where you can add configuration options common to all sub-projects/modules.
++buildscript {
++    repositories {
++        google()
++        mavenCentral()
++        gradlePluginPortal()
++        jcenter()
++    }
++    dependencies {
++        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:[0.12.10, 0.99.99]'
++    }
++}
++
++plugins {
++    id 'com.android.application' version '7.1.2' apply false
++    id 'com.android.library' version '7.1.2' apply false
++
++}
++
++task clean(type: Delete) {
++    delete rootProject.buildDir
++}
++
+Index: app/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_main.xml b/app/src/main/res/layout/activity_main.xml
+new file mode 100644
+--- /dev/null	(date 1648570710732)
++++ b/app/src/main/res/layout/activity_main.xml	(date 1648570710732)
+@@ -0,0 +1,76 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context=".MainActivity">
++
++    <TextView
++        android:id="@+id/helloUserText"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="50dp"
++        android:text="Hello World!"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++
++    <com.google.android.material.button.MaterialButton
++        android:id="@+id/startGameBtn"
++        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_gravity="left"
++        android:layout_margin="20dp"
++        android:text="Начать играть"
++        android:textAllCaps="false"
++        android:textColor="@color/black"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent"
++        app:strokeColor="@color/black" />
++
++    <com.google.android.material.button.MaterialButton
++        android:id="@+id/browserBtn"
++        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_gravity="left"
++        android:layout_margin="20dp"
++        android:layout_marginBottom="20dp"
++        android:text="Браузер - parimatch.com"
++        android:textAllCaps="false"
++        android:textColor="@color/black"
++        app:layout_constraintBottom_toTopOf="@+id/exitButton"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:strokeColor="@color/black" />
++
++    <com.google.android.material.button.MaterialButton
++        android:id="@+id/exitButton"
++        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_gravity="left"
++        android:textAllCaps="false"
++        android:layout_margin="20dp"
++        android:layout_marginBottom="50dp"
++        android:text="Выход"
++        android:textColor="@color/black"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:strokeColor="@color/black" />
++
++
++    <!--    <WebView-->
++<!--        android:id="@+id/webView"-->
++<!--        android:layout_width="match_parent"-->
++<!--        android:layout_height="match_parent"-->
++<!--        android:layout_alignParentLeft="true"-->
++<!--        android:layout_alignParentTop="true" />-->
++
++
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+--- /dev/null	(date 1648283194053)
++++ b/.gitignore	(date 1648283194053)
+@@ -0,0 +1,15 @@
++*.iml
++.gradle
++/local.properties
++/.idea/caches
++/.idea/libraries
++/.idea/modules.xml
++/.idea/workspace.xml
++/.idea/navEditor.xml
++/.idea/assetWizardSettings.xml
++.DS_Store
++/build
++/captures
++.externalNativeBuild
++.cxx
++local.properties
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1648814674487)
++++ b/.idea/misc.xml	(date 1648814674487)
+@@ -0,0 +1,31 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="DesignSurface">
++    <option name="filePathToZoomLevelMap">
++      <map>
++        <entry key="..\:/Users/petif/AndroidStudioProjects/WebViewApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1445" />
++        <entry key="..\:/Users/petif/AndroidStudioProjects/WebViewApp/app/src/main/res/drawable/bg_gradient.xml" value="0.1445" />
++        <entry key="..\:/Users/petif/AndroidStudioProjects/WebViewApp/app/src/main/res/drawable/button_states.xml" value="0.3505" />
++        <entry key="..\:/Users/petif/AndroidStudioProjects/WebViewApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1445" />
++        <entry key="..\:/Users/petif/AndroidStudioProjects/WebViewApp/app/src/main/res/drawable/my_button.xml" value="0.2065" />
++        <entry key="..\:/Users/petif/AndroidStudioProjects/WebViewApp/app/src/main/res/drawable/splash_background.xml" value="0.248" />
++        <entry key="..\:/Users/petif/AndroidStudioProjects/WebViewApp/app/src/main/res/layout/activity_browser.xml" value="0.25" />
++        <entry key="..\:/Users/petif/AndroidStudioProjects/WebViewApp/app/src/main/res/layout/activity_faq.xml" value="0.29257246376811596" />
++        <entry key="..\:/Users/petif/AndroidStudioProjects/WebViewApp/app/src/main/res/layout/activity_game.xml" value="0.18802083333333333" />
++        <entry key="..\:/Users/petif/AndroidStudioProjects/WebViewApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
++        <entry key="..\:/Users/petif/AndroidStudioProjects/WebViewApp/app/src/main/res/layout/activity_multi_player.xml" value="0.18802083333333333" />
++        <entry key="..\:/Users/petif/AndroidStudioProjects/WebViewApp/app/src/main/res/layout/activity_settings.xml" value="0.33" />
++        <entry key="..\:/Users/petif/AndroidStudioProjects/WebViewApp/app/src/main/res/layout/activity_single_player.xml" value="0.17831813576494426" />
++        <entry key="..\:/Users/petif/AndroidStudioProjects/WebViewApp/app/src/main/res/layout/activity_splash.xml" value="0.1" />
++        <entry key="..\:/Users/petif/AndroidStudioProjects/WebViewApp/app/src/main/res/layout/activity_users.xml" value="0.25" />
++        <entry key="..\:/Users/petif/AndroidStudioProjects/WebViewApp/app/src/main/res/layout/authactivity.xml" value="0.33" />
++      </map>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/build/classes" />
++  </component>
++  <component name="ProjectType">
++    <option name="id" value="Android" />
++  </component>
++</project>
+\ No newline at end of file
+Index: gradlew.bat
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/gradlew.bat b/gradlew.bat
+new file mode 100644
+--- /dev/null	(date 1648283194093)
++++ b/gradlew.bat	(date 1648283194093)
+@@ -0,0 +1,89 @@
++@rem
++@rem Copyright 2015 the original author or authors.
++@rem
++@rem Licensed under the Apache License, Version 2.0 (the "License");
++@rem you may not use this file except in compliance with the License.
++@rem You may obtain a copy of the License at
++@rem
++@rem      https://www.apache.org/licenses/LICENSE-2.0
++@rem
++@rem Unless required by applicable law or agreed to in writing, software
++@rem distributed under the License is distributed on an "AS IS" BASIS,
++@rem WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++@rem See the License for the specific language governing permissions and
++@rem limitations under the License.
++@rem
++
++@if "%DEBUG%" == "" @echo off
++@rem ##########################################################################
++@rem
++@rem  Gradle startup script for Windows
++@rem
++@rem ##########################################################################
++
++@rem Set local scope for the variables with windows NT shell
++if "%OS%"=="Windows_NT" setlocal
++
++set DIRNAME=%~dp0
++if "%DIRNAME%" == "" set DIRNAME=.
++set APP_BASE_NAME=%~n0
++set APP_HOME=%DIRNAME%
++
++@rem Resolve any "." and ".." in APP_HOME to make it shorter.
++for %%i in ("%APP_HOME%") do set APP_HOME=%%~fi
++
++@rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
++set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m"
++
++@rem Find java.exe
++if defined JAVA_HOME goto findJavaFromJavaHome
++
++set JAVA_EXE=java.exe
++%JAVA_EXE% -version >NUL 2>&1
++if "%ERRORLEVEL%" == "0" goto execute
++
++echo.
++echo ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.
++echo.
++echo Please set the JAVA_HOME variable in your environment to match the
++echo location of your Java installation.
++
++goto fail
++
++:findJavaFromJavaHome
++set JAVA_HOME=%JAVA_HOME:"=%
++set JAVA_EXE=%JAVA_HOME%/bin/java.exe
++
++if exist "%JAVA_EXE%" goto execute
++
++echo.
++echo ERROR: JAVA_HOME is set to an invalid directory: %JAVA_HOME%
++echo.
++echo Please set the JAVA_HOME variable in your environment to match the
++echo location of your Java installation.
++
++goto fail
++
++:execute
++@rem Setup the command line
++
++set CLASSPATH=%APP_HOME%\gradle\wrapper\gradle-wrapper.jar
++
++
++@rem Execute Gradle
++"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_OPTS% "-Dorg.gradle.appname=%APP_BASE_NAME%" -classpath "%CLASSPATH%" org.gradle.wrapper.GradleWrapperMain %*
++
++:end
++@rem End local scope for the variables with windows NT shell
++if "%ERRORLEVEL%"=="0" goto mainEnd
++
++:fail
++rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of
++rem the _cmd.exe /c_ return code!
++if  not "" == "%GRADLE_EXIT_CONSOLE%" exit 1
++exit /b 1
++
++:mainEnd
++if "%OS%"=="Windows_NT" endlocal
++
++:omega
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+new file mode 100644
+--- /dev/null	(date 1648283207436)
++++ b/.idea/compiler.xml	(date 1648283207436)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <bytecodeTargetLevel target="11" />
++  </component>
++</project>
+\ No newline at end of file
+Index: gradle/wrapper/gradle-wrapper.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/gradle/wrapper/gradle-wrapper.properties b/gradle/wrapper/gradle-wrapper.properties
+new file mode 100644
+--- /dev/null	(date 1648283195425)
++++ b/gradle/wrapper/gradle-wrapper.properties	(date 1648283195425)
+@@ -0,0 +1,6 @@
++#Sat Mar 26 10:26:35 EET 2022
++distributionBase=GRADLE_USER_HOME
++distributionUrl=https\://services.gradle.org/distributions/gradle-7.2-bin.zip
++distributionPath=wrapper/dists
++zipStorePath=wrapper/dists
++zipStoreBase=GRADLE_USER_HOME
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+new file mode 100644
+--- /dev/null	(date 1648319438498)
++++ b/.idea/gradle.xml	(date 1648319438498)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="GradleMigrationSettings" migrationVersion="1" />
++  <component name="GradleSettings">
++    <option name="linkedExternalProjectsSettings">
++      <GradleProjectSettings>
++        <option name="testRunner" value="GRADLE" />
++        <option name="distributionType" value="DEFAULT_WRAPPED" />
++        <option name="externalProjectPath" value="$PROJECT_DIR$" />
++        <option name="modules">
++          <set>
++            <option value="$PROJECT_DIR$" />
++            <option value="$PROJECT_DIR$/app" />
++          </set>
++        </option>
++        <option name="resolveModulePerSourceSet" value="false" />
++      </GradleProjectSettings>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: gradlew
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/gradlew b/gradlew
+new file mode 100644
+--- /dev/null	(date 1648283194088)
++++ b/gradlew	(date 1648283194088)
+@@ -0,0 +1,185 @@
++#!/usr/bin/env sh
++
++#
++# Copyright 2015 the original author or authors.
++#
++# Licensed under the Apache License, Version 2.0 (the "License");
++# you may not use this file except in compliance with the License.
++# You may obtain a copy of the License at
++#
++#      https://www.apache.org/licenses/LICENSE-2.0
++#
++# Unless required by applicable law or agreed to in writing, software
++# distributed under the License is distributed on an "AS IS" BASIS,
++# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++# See the License for the specific language governing permissions and
++# limitations under the License.
++#
++
++##############################################################################
++##
++##  Gradle start up script for UN*X
++##
++##############################################################################
++
++# Attempt to set APP_HOME
++# Resolve links: $0 may be a link
++PRG="$0"
++# Need this for relative symlinks.
++while [ -h "$PRG" ] ; do
++    ls=`ls -ld "$PRG"`
++    link=`expr "$ls" : '.*-> \(.*\)$'`
++    if expr "$link" : '/.*' > /dev/null; then
++        PRG="$link"
++    else
++        PRG=`dirname "$PRG"`"/$link"
++    fi
++done
++SAVED="`pwd`"
++cd "`dirname \"$PRG\"`/" >/dev/null
++APP_HOME="`pwd -P`"
++cd "$SAVED" >/dev/null
++
++APP_NAME="Gradle"
++APP_BASE_NAME=`basename "$0"`
++
++# Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
++DEFAULT_JVM_OPTS='"-Xmx64m" "-Xms64m"'
++
++# Use the maximum available, or set MAX_FD != -1 to use that value.
++MAX_FD="maximum"
++
++warn () {
++    echo "$*"
++}
++
++die () {
++    echo
++    echo "$*"
++    echo
++    exit 1
++}
++
++# OS specific support (must be 'true' or 'false').
++cygwin=false
++msys=false
++darwin=false
++nonstop=false
++case "`uname`" in
++  CYGWIN* )
++    cygwin=true
++    ;;
++  Darwin* )
++    darwin=true
++    ;;
++  MINGW* )
++    msys=true
++    ;;
++  NONSTOP* )
++    nonstop=true
++    ;;
++esac
++
++CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
++
++
++# Determine the Java command to use to start the JVM.
++if [ -n "$JAVA_HOME" ] ; then
++    if [ -x "$JAVA_HOME/jre/sh/java" ] ; then
++        # IBM's JDK on AIX uses strange locations for the executables
++        JAVACMD="$JAVA_HOME/jre/sh/java"
++    else
++        JAVACMD="$JAVA_HOME/bin/java"
++    fi
++    if [ ! -x "$JAVACMD" ] ; then
++        die "ERROR: JAVA_HOME is set to an invalid directory: $JAVA_HOME
++
++Please set the JAVA_HOME variable in your environment to match the
++location of your Java installation."
++    fi
++else
++    JAVACMD="java"
++    which java >/dev/null 2>&1 || die "ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.
++
++Please set the JAVA_HOME variable in your environment to match the
++location of your Java installation."
++fi
++
++# Increase the maximum file descriptors if we can.
++if [ "$cygwin" = "false" -a "$darwin" = "false" -a "$nonstop" = "false" ] ; then
++    MAX_FD_LIMIT=`ulimit -H -n`
++    if [ $? -eq 0 ] ; then
++        if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
++            MAX_FD="$MAX_FD_LIMIT"
++        fi
++        ulimit -n $MAX_FD
++        if [ $? -ne 0 ] ; then
++            warn "Could not set maximum file descriptor limit: $MAX_FD"
++        fi
++    else
++        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
++    fi
++fi
++
++# For Darwin, add options to specify how the application appears in the dock
++if $darwin; then
++    GRADLE_OPTS="$GRADLE_OPTS \"-Xdock:name=$APP_NAME\" \"-Xdock:icon=$APP_HOME/media/gradle.icns\""
++fi
++
++# For Cygwin or MSYS, switch paths to Windows format before running java
++if [ "$cygwin" = "true" -o "$msys" = "true" ] ; then
++    APP_HOME=`cygpath --path --mixed "$APP_HOME"`
++    CLASSPATH=`cygpath --path --mixed "$CLASSPATH"`
++
++    JAVACMD=`cygpath --unix "$JAVACMD"`
++
++    # We build the pattern for arguments to be converted via cygpath
++    ROOTDIRSRAW=`find -L / -maxdepth 1 -mindepth 1 -type d 2>/dev/null`
++    SEP=""
++    for dir in $ROOTDIRSRAW ; do
++        ROOTDIRS="$ROOTDIRS$SEP$dir"
++        SEP="|"
++    done
++    OURCYGPATTERN="(^($ROOTDIRS))"
++    # Add a user-defined pattern to the cygpath arguments
++    if [ "$GRADLE_CYGPATTERN" != "" ] ; then
++        OURCYGPATTERN="$OURCYGPATTERN|($GRADLE_CYGPATTERN)"
++    fi
++    # Now convert the arguments - kludge to limit ourselves to /bin/sh
++    i=0
++    for arg in "$@" ; do
++        CHECK=`echo "$arg"|egrep -c "$OURCYGPATTERN" -`
++        CHECK2=`echo "$arg"|egrep -c "^-"`                                 ### Determine if an option
++
++        if [ $CHECK -ne 0 ] && [ $CHECK2 -eq 0 ] ; then                    ### Added a condition
++            eval `echo args$i`=`cygpath --path --ignore --mixed "$arg"`
++        else
++            eval `echo args$i`="\"$arg\""
++        fi
++        i=`expr $i + 1`
++    done
++    case $i in
++        0) set -- ;;
++        1) set -- "$args0" ;;
++        2) set -- "$args0" "$args1" ;;
++        3) set -- "$args0" "$args1" "$args2" ;;
++        4) set -- "$args0" "$args1" "$args2" "$args3" ;;
++        5) set -- "$args0" "$args1" "$args2" "$args3" "$args4" ;;
++        6) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" ;;
++        7) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" "$args6" ;;
++        8) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" "$args6" "$args7" ;;
++        9) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" "$args6" "$args7" "$args8" ;;
++    esac
++fi
++
++# Escape application args
++save () {
++    for i do printf %s\\n "$i" | sed "s/'/'\\\\''/g;1s/^/'/;\$s/\$/' \\\\/" ; done
++    echo " "
++}
++APP_ARGS=`save "$@"`
++
++# Collect all arguments for the java command, following the shell quoting and substitution rules
++eval set -- $DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS "\"-Dorg.gradle.appname=$APP_BASE_NAME\"" -classpath "\"$CLASSPATH\"" org.gradle.wrapper.GradleWrapperMain "$APP_ARGS"
++
++exec "$JAVACMD" "$@"
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1648283200964)
++++ b/.idea/.gitignore	(date 1648283200964)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml

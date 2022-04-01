@@ -1,0 +1,58 @@
+Index: app/src/main/res/layout/activity_faq.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_faq.xml b/app/src/main/res/layout/activity_faq.xml
+new file mode 100644
+--- /dev/null	(date 1648713815704)
++++ b/app/src/main/res/layout/activity_faq.xml	(date 1648713815704)
+@@ -0,0 +1,47 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context=".Game.FaqActivity">
++
++    <TextView
++        android:id="@+id/textView2"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="50dp"
++        android:text="Инструкция к игре"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++
++    <TextView
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="50dp"
++        android:layout_marginTop="100dp"
++        android:layout_marginEnd="50dp"
++        android:text="Игроки по очереди ставят на свободные клетки поля 3×3 знаки (один всегда крестики, другой всегда нолики). Первый, выстроивший в ряд 3 своих фигуры по вертикали, горизонтали или диагонали, выигрывает. Первый ход делает игрок, ставящий крестики."
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/textView2"></TextView>
++
++    <com.google.android.material.button.MaterialButton
++        android:id="@+id/backButton"
++        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_gravity="left"
++        android:textAllCaps="false"
++        android:layout_margin="20dp"
++        android:layout_marginBottom="50dp"
++        android:text="Назад"
++        android:textColor="@color/black"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:strokeColor="@color/black" />
++
++
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
