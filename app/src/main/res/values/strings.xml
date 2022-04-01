@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TestGameApp</string>
+    <string name="facebook_app_id">978193203070221</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">d864473af66f23825e4c584824195cb4</string>
+</resources>
