@@ -44,7 +44,6 @@ id textView2
 id textView3
 id webView
 layout activity_browser
-layout activity_faq
 layout activity_game
 layout activity_main
 layout activity_multi_player

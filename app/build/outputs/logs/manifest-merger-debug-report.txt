@@ -126,12 +126,6 @@ uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
 ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:12:5-85
 	android:name
 		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:12:22-82
-meta-data#CHANNEL
-ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:13:5-67
-	android:value
-		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:13:39-65
-	android:name
-		ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:13:16-38
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from C:\Users\petif\AndroidStudioProjects\WebViewApp\app\src\main\AndroidManifest.xml:17:5-79
 MERGED from [com.onesignal:OneSignal:4.7.0] C:\Users\petif\.gradle\caches\transforms-3\f7a1f38eb42a30325edb5f33e5f46302\transformed\OneSignal-4.7.0\AndroidManifest.xml:24:5-79
